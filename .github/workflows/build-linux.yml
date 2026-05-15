@@ -1,0 +1,181 @@
+name: Build Linux Packages
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*']
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+  RUST_BACKTRACE: 1
+
+jobs:
+  build-linux-x86_64:
+    name: Build Linux x86_64
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-unknown-linux-gnu
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+          shared-key: linux-x86_64
+          cache-targets: true
+
+      - name: Install Linux system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libgtk-3-dev \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            patchelf
+
+      - name: Install Tauri CLI
+        run: cargo install tauri-cli --locked
+
+      - name: Build Tauri App
+        run: cargo tauri build --target x86_64-unknown-linux-gnu
+
+      - name: Collect artifacts
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+          base_dir="src-tauri/target/x86_64-unknown-linux-gnu/release/bundle"
+          for ext in deb rpm AppImage; do
+            case $ext in
+              deb) subdir="deb" ;;
+              rpm) subdir="rpm" ;;
+              AppImage) subdir="appimage" ;;
+            esac
+            cp "$base_dir/$subdir"/*."$ext" artifacts/ 2>/dev/null || echo "No .$ext files found"
+          done
+          ls -la artifacts/
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-x86_64-packages
+          path: artifacts/*
+          if-no-files-found: error
+
+  build-linux-arm64:
+    name: Build Linux ARM64
+    runs-on: ubuntu-22.04-arm
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-unknown-linux-gnu
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+          shared-key: linux-arm64
+          cache-targets: true
+
+      - name: Install Linux system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libgtk-3-dev \
+            libwebkit2gtk-4.1-dev \
+            libappindicator3-dev \
+            librsvg2-dev \
+            patchelf
+
+      - name: Install Tauri CLI
+        run: cargo install tauri-cli --locked
+
+      - name: Build Tauri App (native ARM64)
+        run: cargo tauri build --target aarch64-unknown-linux-gnu
+
+      - name: Collect artifacts
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+          base_dir="src-tauri/target/aarch64-unknown-linux-gnu/release/bundle"
+          for ext in deb rpm AppImage; do
+            case $ext in
+              deb) subdir="deb" ;;
+              rpm) subdir="rpm" ;;
+              AppImage) subdir="appimage" ;;
+            esac
+            cp "$base_dir/$subdir"/*."$ext" artifacts/ 2>/dev/null || echo "No .$ext files found"
+          done
+          ls -la artifacts/
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-arm64-packages
+          path: artifacts/*
+          if-no-files-found: error
+
+  release:
+    name: Create GitHub Release
+    needs: [build-linux-x86_64, build-linux-arm64]
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+    steps:
+      - name: Download x86_64 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: linux-x86_64-packages
+          path: artifacts/x86_64
+
+      - name: Download ARM64 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: linux-arm64-packages
+          path: artifacts/arm64
+
+      - name: List downloaded artifacts
+        run: find artifacts -type f | sort
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/**/*
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

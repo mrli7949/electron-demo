@@ -1,0 +1,21 @@
+const { app, BrowserWindow } = require('electron/main')
+const path = require('node:path')
+
+const createWindow = () => {
+  const win = new BrowserWindow({
+    width: 1280,
+    height: 800,
+  })
+
+  win.loadFile('home/index.html')
+}
+
+app.whenReady().then(() => {
+  createWindow()
+})
+
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
+    app.quit()
+  }
+})
