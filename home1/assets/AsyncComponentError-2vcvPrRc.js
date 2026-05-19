@@ -1,0 +1,1 @@
+import{d as n,u as t,e,o as s,t as c,h as a,_ as r}from"./index-Doe_p-jh.js";const _={class:"component-not-found"},p=n({__name:"AsyncComponentError",setup(m){const{t:o}=t();return(d,u)=>(s(),e("div",_,c(a(o)("common.componentNotFound")),1))}}),i=r(p,[["__scopeId","data-v-a9527e24"]]);export{i as default};
