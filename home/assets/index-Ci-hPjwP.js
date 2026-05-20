@@ -1,0 +1,1 @@
+import{R as t,y as e}from"./index-Doe_p-jh.js";async function o(){return t.get("/api/status/loadManagement/get")}async function s(a){return e.post("/api/status/loadManagement/update",a)}export{o as g,s as u};

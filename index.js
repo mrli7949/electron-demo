@@ -5,6 +5,8 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 1280,
     height: 800,
+    useContentSize: true,
+    resizable: false,
   })
 
   win.loadFile('home/index.html')
