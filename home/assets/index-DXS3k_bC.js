@@ -1,0 +1,1 @@
+import{a as s}from"./pages-CqkkqmPX.js";import{p as t,k as a,af as n,f as c,a1 as r,a5 as _,_ as p}from"./index-yYGyZhkc.js";const i={class:"h100"},f=t({__name:"index",setup(d){const e=_(s()),o=c(()=>JSON.stringify(e.value));return(m,l)=>(r(),a("div",i,n(o.value),1))}}),v=p(f,[["__scopeId","data-v-41212f29"]]);export{v as default};

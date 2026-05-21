@@ -1,1 +1,0 @@
-import{R as r}from"./index-Doe_p-jh.js";const i=()=>r.get("/api/general/certificate/getCertificateStatus"),c=t=>{const e=new FormData;return e.append("keyFile",t.keyFile),e.append("certFile",t.certFile),r.post("/api/general/certificate/certificateVerify",e,{headers:{"Content-Type":"multipart/form-data"}})};export{i as g,c as v};

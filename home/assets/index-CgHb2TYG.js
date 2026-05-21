@@ -1,1 +1,0 @@
-import{y as n,R as t}from"./index-Doe_p-jh.js";async function i(){return t.get("/api/network/sim/get")}const s=e=>n.post("/api/network/sim/update",e);async function r(){return t.get("/api/network/sim/getSimStatus")}export{i as a,r as g,s as u};

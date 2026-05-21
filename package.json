@@ -1,6 +1,6 @@
 {
-  "name": "electron-pure-demo",
-  "productName": "electron-pure-demo",
+  "name": "electron-demo",
+  "productName": "electron-demo",
   "version": "1.0.0",
   "description": "eee",
   "main": "index.js",

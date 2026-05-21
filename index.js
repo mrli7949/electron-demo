@@ -9,8 +9,8 @@ const createWindow = () => {
     resizable: false,
   })
 
-  // win.loadFile('home/index.html')
-  win.loadFile('purepage/index.html')
+  win.loadFile('home/index.html')
+  // win.loadFile('purepage/index.html')
 }
 
 app.whenReady().then(() => {
