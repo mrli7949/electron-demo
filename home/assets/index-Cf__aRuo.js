@@ -1,0 +1,1 @@
+import{i as e,c as o,o as s,_ as t}from"./index-DDWkhkvF.js";const c={class:"h100"},_=e({__name:"index",setup(a){return(n,d)=>(s(),o("div",c,"空白页面"))}}),p=t(_,[["__scopeId","data-v-de3ca0d4"]]);export{p as default};
