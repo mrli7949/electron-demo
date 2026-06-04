@@ -9,8 +9,7 @@ const createWindow = () => {
     resizable: false,
   })
 
-  win.loadFile('home/index.html')
-  // win.loadFile('purepage/index.html')
+  win.loadFile(path.join(__dirname, 'dist', 'index.html'))
 }
 
 app.whenReady().then(() => {

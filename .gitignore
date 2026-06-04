@@ -5,5 +5,5 @@
 *.log
 .env
 .env.local
-/dist
+/out
 /.cargo/config.toml

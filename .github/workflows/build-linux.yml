@@ -2,10 +2,10 @@ name: Build Electron App for Linux
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, feat-mpa]
     tags: ['v*']
   pull_request:
-    branches: [main, master]
+    branches: [main, master, feat-mpa]
   workflow_dispatch:
 
 env:
