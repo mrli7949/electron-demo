@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-Bsrc_S8K.js";e(`system`);
