@@ -1,1 +1,0 @@
-import{n as e}from"./rolldown-runtime-QTnfLwEv.js";import{N as t,w as n}from"./kehua-plus-Hy1HA_0o.js";var r=e({BaseMessage:()=>i,MESSAGE_DEFAULT_PLACEMENT:()=>`top`,default:()=>i}),i=t(n,`$message`);export{r as n,i as t};

@@ -1,0 +1,1 @@
+import{b as e,v as t,w as n}from"./vendor-C0oFpcrv.js";var r=e({name:`BaseText`,props:{type:String,size:String},setup(e,{slots:r,attrs:i}){return()=>t(`span`,n(i,{class:[`base-text`,e.type&&`base-text--${e.type}`,e.size&&`base-text--${e.size}`,i.class]}),[r.default?.()])}});export{r as t};

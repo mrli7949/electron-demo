@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-GHU6-Zjy.js";e(`alarm`);
