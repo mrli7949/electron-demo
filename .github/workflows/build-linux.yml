@@ -12,34 +12,6 @@ env:
   ELECTRON_MIRROR: https://npmmirror.com/mirrors/electron/
 
 jobs:
-  build-linux-x86_64:
-    name: Build Linux x86_64
-    runs-on: ubuntu-22.04
-    timeout-minutes: 30
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Package Electron App (x86_64)
-        run: |
-          npm run make -- --arch x64 --platform linux
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: linux-x86_64
-          path: out/make/**/*
-          if-no-files-found: error
-
   build-linux-arm64:
     name: Build Linux ARM64
     runs-on: ubuntu-22.04-arm
@@ -68,25 +40,52 @@ jobs:
           path: out/make/**/*
           if-no-files-found: error
 
+  build-windows-x86:
+    name: Build Windows x86
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Package Electron App (x86)
+        run: npm run make -- --arch ia32 --platform win32
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-x86
+          path: out/make/**/*
+          if-no-files-found: error
+
   release:
     name: Create GitHub Release
-    needs: [build-linux-x86_64, build-linux-arm64]
+    needs: [build-linux-arm64, build-windows-x86]
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
     permissions:
       contents: write
     steps:
-      - name: Download x86_64 artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: linux-x86_64
-          path: release/x86_64
-
-      - name: Download ARM64 artifacts
+      - name: Download Linux ARM64 artifacts
         uses: actions/download-artifact@v4
         with:
           name: linux-arm64
-          path: release/arm64
+          path: release/linux-arm64
+
+      - name: Download Windows x86 artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: windows-x86
+          path: release/windows-x86
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
