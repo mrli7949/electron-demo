@@ -13,6 +13,7 @@ const allowedEntryFiles = new Set([
 let currentWindow = null
 let currentView = null
 let isReplacingRenderer = false
+const NAVIGATION_READY_EVENT = 'app:top-level-navigation-ready'
 
 function parseEntryUrl(rawUrl) {
   if (typeof rawUrl !== 'string') {
@@ -64,6 +65,16 @@ function resizeRendererView(win, view) {
   view.setBounds({ x: 0, y: 0, width, height })
 }
 
+function notifyRendererViewReady(view) {
+  if (!view || view.webContents.isDestroyed()) return
+
+  setTimeout(() => {
+    if (!view.webContents.isDestroyed()) {
+      view.webContents.send(NAVIGATION_READY_EVENT)
+    }
+  }, 0)
+}
+
 async function loadRendererView(entryUrl) {
   const target = parseEntryUrl(entryUrl)
   const view = createRendererView()
@@ -107,6 +118,8 @@ async function replaceRendererView(entryUrl) {
     currentWindow.contentView.removeChildView(previousView)
     destroyRendererView(previousView)
   }
+
+  notifyRendererViewReady(nextView)
 }
 
 const createWindow = async (entryUrl = 'index.html') => {
@@ -135,6 +148,7 @@ const createWindow = async (entryUrl = 'index.html') => {
   resizeRendererView(win, currentView)
   win.contentView.addChildView(currentView)
   win.show()
+  notifyRendererViewReady(currentView)
 
   return win
 }
