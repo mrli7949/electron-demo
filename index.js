@@ -1,5 +1,8 @@
 const { app, BrowserWindow, WebContentsView, ipcMain } = require('electron/main')
 const path = require('node:path')
+const { createWatchdog } = require('./watchdog')
+
+app.commandLine.appendSwitch('js-flags', '--max-old-space-size=256')
 
 const allowedEntryFiles = new Set([
   'index.html',
@@ -11,9 +14,17 @@ const allowedEntryFiles = new Set([
 ])
 
 let currentWindow = null
-let currentView = null
+let currentRenderer = null
 let isReplacingRenderer = false
+let nextRendererId = 1
 const NAVIGATION_READY_EVENT = 'app:top-level-navigation-ready'
+
+const watchdog = createWatchdog({
+  logDir: path.join(app.getPath('userData'), 'watchdog-zzcd-logs'),
+  requestRecovery: async (reason, context) => {
+    await recoverCurrentRenderer(reason, context)
+  },
+})
 
 function parseEntryUrl(rawUrl) {
   if (typeof rawUrl !== 'string') {
@@ -53,24 +64,28 @@ function createRendererView() {
   })
 }
 
-function destroyRendererView(view) {
-  if (view && !view.webContents.isDestroyed()) {
-    view.webContents.destroy()
+function destroyRenderer(renderer) {
+  if (!renderer) return
+
+  watchdog.detach(renderer.id)
+
+  if (renderer.view && !renderer.view.webContents.isDestroyed()) {
+    renderer.view.webContents.destroy()
   }
 }
 
-function resizeRendererView(win, view) {
-  if (!win || win.isDestroyed() || !view) return
+function resizeRendererView(win, renderer) {
+  if (!win || win.isDestroyed() || !renderer?.view) return
   const [width, height] = win.getContentSize()
-  view.setBounds({ x: 0, y: 0, width, height })
+  renderer.view.setBounds({ x: 0, y: 0, width, height })
 }
 
-function notifyRendererViewReady(view) {
-  if (!view || view.webContents.isDestroyed()) return
+function notifyRendererViewReady(renderer) {
+  if (!renderer?.view || renderer.view.webContents.isDestroyed()) return
 
   setTimeout(() => {
-    if (!view.webContents.isDestroyed()) {
-      view.webContents.send(NAVIGATION_READY_EVENT)
+    if (!renderer.view.webContents.isDestroyed()) {
+      renderer.view.webContents.send(NAVIGATION_READY_EVENT)
     }
   }, 0)
 }
@@ -78,6 +93,18 @@ function notifyRendererViewReady(view) {
 async function loadRendererView(entryUrl) {
   const target = parseEntryUrl(entryUrl)
   const view = createRendererView()
+  const renderer = {
+    id: nextRendererId++,
+    entryUrl,
+    view,
+    webContents: view.webContents,
+    createdAt: Date.now(),
+  }
+
+  watchdog.attach(view.webContents, {
+    id: renderer.id,
+    entryUrl: renderer.entryUrl,
+  })
 
   try {
     await view.webContents.loadFile(path.join(__dirname, 'dist', target.fileName), {
@@ -85,11 +112,11 @@ async function loadRendererView(entryUrl) {
       query: target.query,
     })
   } catch (error) {
-    destroyRendererView(view)
+    destroyRenderer(renderer)
     throw error
   }
 
-  return view
+  return renderer
 }
 
 async function replaceRendererView(entryUrl) {
@@ -97,29 +124,44 @@ async function replaceRendererView(entryUrl) {
     throw new Error('Main window is not available')
   }
 
-  const nextView = await loadRendererView(entryUrl)
+  const nextRenderer = await loadRendererView(entryUrl)
   if (!currentWindow || currentWindow.isDestroyed()) {
-    destroyRendererView(nextView)
+    destroyRenderer(nextRenderer)
     throw new Error('Main window was closed while loading renderer')
   }
 
   try {
-    resizeRendererView(currentWindow, nextView)
-    currentWindow.contentView.addChildView(nextView)
+    resizeRendererView(currentWindow, nextRenderer)
+    currentWindow.contentView.addChildView(nextRenderer.view)
   } catch (error) {
-    destroyRendererView(nextView)
+    destroyRenderer(nextRenderer)
     throw error
   }
 
-  const previousView = currentView
-  currentView = nextView
+  const previousRenderer = currentRenderer
+  currentRenderer = nextRenderer
+  watchdog.markActive(nextRenderer.id)
 
-  if (previousView) {
-    currentWindow.contentView.removeChildView(previousView)
-    destroyRendererView(previousView)
+  if (previousRenderer) {
+    currentWindow.contentView.removeChildView(previousRenderer.view)
+    destroyRenderer(previousRenderer)
   }
 
-  notifyRendererViewReady(nextView)
+  notifyRendererViewReady(nextRenderer)
+}
+
+async function recoverCurrentRenderer(reason, context) {
+  if (isReplacingRenderer) return
+  if (!currentRenderer || context.rendererId !== currentRenderer.id) return
+
+  console.error('[watchdog] recovery requested:', reason, context)
+
+  isReplacingRenderer = true
+  try {
+    await replaceRendererView(currentRenderer.entryUrl)
+  } finally {
+    isReplacingRenderer = false
+  }
 }
 
 const createWindow = async (entryUrl = 'index.html') => {
@@ -132,23 +174,24 @@ const createWindow = async (entryUrl = 'index.html') => {
   })
 
   win.on('resize', () => {
-    resizeRendererView(win, currentView)
+    resizeRendererView(win, currentRenderer)
   })
 
   win.on('closed', () => {
     if (currentWindow === win) {
-      destroyRendererView(currentView)
+      destroyRenderer(currentRenderer)
       currentWindow = null
-      currentView = null
+      currentRenderer = null
     }
   })
 
   currentWindow = win
-  currentView = await loadRendererView(entryUrl)
-  resizeRendererView(win, currentView)
-  win.contentView.addChildView(currentView)
+  currentRenderer = await loadRendererView(entryUrl)
+  watchdog.markActive(currentRenderer.id)
+  resizeRendererView(win, currentRenderer)
+  win.contentView.addChildView(currentRenderer.view)
   win.show()
-  notifyRendererViewReady(currentView)
+  notifyRendererViewReady(currentRenderer)
 
   return win
 }
@@ -174,21 +217,31 @@ ipcMain.handle('app:navigate-top-level', async (event, entryUrl) => {
     return { ok: true, reason: 'A renderer replacement is already running' }
   }
 
-  if (event.sender !== currentView?.webContents) {
+  if (event.sender !== currentRenderer?.webContents) {
     return { ok: false, reason: 'Source renderer is not available' }
   }
 
   isReplacingRenderer = true
+  watchdog.pause('top-level-navigation')
   try {
     await replaceRendererView(entryUrl)
     return { ok: true }
   } finally {
+    watchdog.resume('top-level-navigation')
     isReplacingRenderer = false
   }
+})
+
+ipcMain.on('watchdog:heartbeat', (event, payload) => {
+  watchdog.receiveHeartbeat(event, payload)
 })
 
 app.on('window-all-closed', () => {
   if (!isReplacingRenderer && process.platform !== 'darwin') {
     app.quit()
   }
+})
+
+app.on('before-quit', () => {
+  watchdog.close()
 })

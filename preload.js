@@ -139,6 +139,10 @@ ipcRenderer.on(NAVIGATION_READY_EVENT, () => {
   hideNavigationOverlay()
 })
 
+function sendWatchdogHeartbeat(payload = {}) {
+  ipcRenderer.send('watchdog:heartbeat', payload)
+}
+
 contextBridge.exposeInMainWorld('electronDemo', {
   navigateTopLevel: async (entryUrl) => {
     setNavigationFlag()
@@ -155,5 +159,8 @@ contextBridge.exposeInMainWorld('electronDemo', {
       hideNavigationOverlay()
       throw error
     }
+  },
+  watchdog: {
+    heartbeat: sendWatchdogHeartbeat,
   },
 })
