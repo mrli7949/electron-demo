@@ -1,1 +1,0 @@
-import{b as e,et as t,k as n,p as r}from"./vendor-4hWrXXWj.js";import{t as i}from"./PerfLoadTestView-i-Ysi3aU.js";var a=[],o=e({name:`PerfLoadTestAlarm`,__name:`index`,setup(e){return(e,o)=>(n(),r(i,{"category-id":`alarm`,"category-title":`告警管理`,pages:t(a)},null,8,[`pages`]))}});export{o as default};
