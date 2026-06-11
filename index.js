@@ -54,7 +54,7 @@ function parseEntryUrl(rawUrl) {
 }
 
 function createRendererView() {
-  return new WebContentsView({
+  const view = new WebContentsView({
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -62,6 +62,8 @@ function createRendererView() {
       sandbox: false,
     },
   })
+  view.webContents.setBackgroundColor('#06111c')
+  return view
 }
 
 function destroyRenderer(renderer) {
