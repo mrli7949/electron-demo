@@ -2,6 +2,10 @@ const { app, BrowserWindow, WebContentsView, ipcMain } = require('electron/main'
 const path = require('node:path')
 const { createWatchdog } = require('./watchdog')
 
+// 禁用硬件加速，模拟测试
+app.disableHardwareAcceleration()
+app.commandLine.appendSwitch('disable-gpu')
+// 限制渲染进程内存使用，模拟内存泄漏场景
 app.commandLine.appendSwitch('js-flags', '--max-old-space-size=256')
 
 const allowedEntryFiles = new Set([

@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-msoUz9ko.js";e(`setting`);
