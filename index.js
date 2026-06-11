@@ -62,7 +62,7 @@ function createRendererView() {
       sandbox: false,
     },
   })
-  view.webContents.setBackgroundColor('#06111c')
+  view.setBackgroundColor('#06111c')
   return view
 }
 
