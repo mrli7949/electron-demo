@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-CBcyw9q0.js";e(`demo`);
