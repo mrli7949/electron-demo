@@ -171,6 +171,7 @@ const createWindow = async (entryUrl = 'index.html') => {
     useContentSize: true,
     resizable: false,
     show: false,
+    backgroundColor: '#06111c',
   })
 
   win.on('resize', () => {
