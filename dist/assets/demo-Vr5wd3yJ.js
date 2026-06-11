@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-CLdLntKF.js";e(`demo`);
