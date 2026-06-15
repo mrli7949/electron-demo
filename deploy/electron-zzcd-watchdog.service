@@ -1,0 +1,26 @@
+[Unit]
+Description=Electron ZZCD Watchdog
+After=graphical.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=zzcd
+Group=zzcd
+WorkingDirectory=/opt/electron-demo
+ExecStart=/opt/electron-demo/electron-pure-kehua-zero
+Restart=always
+RestartSec=3
+
+# 这里的值需要和 index.js 里的 RUNTIME_LIMITS 保持一致。
+MemoryHigh=420M
+MemoryMax=500M
+OOMPolicy=stop
+
+# X11 桌面环境变量，需要按板子上的实际用户和会话调整。
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/zzcd/.Xauthority
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=graphical.target

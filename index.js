@@ -1,12 +1,45 @@
 const { app, BrowserWindow, WebContentsView, ipcMain } = require('electron/main')
 const path = require('node:path')
 const { createWatchdog } = require('./watchdog')
+const { createMemoryMonitor } = require('./watchdog/memoryMonitor')
+
+const RUNTIME_LIMITS = {
+  // renderer 进程内存达到该值时，只记录 warning，不触发恢复。
+  rendererMemoryWarningMb: 350,
+
+  // renderer 进程内存达到该值时，重建当前 WebContentsView。
+  rendererMemoryRecoverMb: 450,
+
+  // renderer 进程内存达到该值时，退出当前进程，交给 systemd 重启。
+  rendererMemoryHardRecoverMb: 470,
+
+  // Electron 进程组内存达到该值时，记录整体浏览器预算 warning。
+  browserMemoryWarningMb: 420,
+
+  // 浏览器进程组硬预算，需要和 systemd MemoryMax 保持一致。
+  browserMemoryMaxMb: 500,
+
+  // 内存采样间隔；间隔越短，主进程额外开销越高。
+  memoryCheckIntervalMs: 10000,
+
+  // 内存触发重建后的冷却时间，避免 renderer 频繁反复重建。
+  memoryRecoverCooldownMs: 60000,
+
+  // V8 old-space 限制；只约束 JS 堆，不等同于 Chromium 总内存。
+  jsOldSpaceMb: 256,
+}
 
 // 禁用硬件加速，模拟测试
 app.disableHardwareAcceleration()
 app.commandLine.appendSwitch('disable-gpu')
 // 限制渲染进程内存使用，模拟内存泄漏场景
-app.commandLine.appendSwitch('js-flags', '--max-old-space-size=256')
+app.commandLine.appendSwitch('js-flags', `--max-old-space-size=${RUNTIME_LIMITS.jsOldSpaceMb}`)
+
+const gotSingleInstanceLock = app.requestSingleInstanceLock()
+if (!gotSingleInstanceLock) {
+  console.error('[runtime] another electron-demo instance is already running, quit current process')
+  app.quit()
+}
 
 const allowedEntryFiles = new Set([
   'index.html',
@@ -27,6 +60,31 @@ const watchdog = createWatchdog({
   logDir: path.join(app.getPath('userData'), 'watchdog-zzcd-logs'),
   requestRecovery: async (reason, context) => {
     await recoverCurrentRenderer(reason, context)
+  },
+})
+
+const memoryMonitor = createMemoryMonitor({
+  app,
+  limits: RUNTIME_LIMITS,
+  getCurrentRenderer: () => currentRenderer,
+  isRecoveryBusy: () => isReplacingRenderer,
+  reportEvent: (event) => {
+    watchdog.reportEvent(event)
+  },
+  requestRecovery: async (reason, context) => {
+    await recoverCurrentRenderer(reason, context)
+  },
+  requestHardExit: (reason, context) => {
+    watchdog.reportEvent({
+      source: 'electron-main',
+      level: 'fatal',
+      reason,
+      rendererId: context.rendererId,
+      entryUrl: context.entryUrl,
+      details: context.details,
+    })
+    console.error('[memory] hard limit reached, exit current process:', reason, context)
+    app.exit(137)
   },
 })
 
@@ -209,6 +267,8 @@ app.whenReady().then(() => {
     app.quit()
   })
 
+  memoryMonitor.start()
+
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow().catch((error) => {
@@ -217,6 +277,17 @@ app.whenReady().then(() => {
       })
     }
   })
+})
+
+app.on('second-instance', () => {
+  console.warn('[runtime] blocked second electron-demo instance')
+  if (!currentWindow || currentWindow.isDestroyed()) return
+
+  if (currentWindow.isMinimized()) {
+    currentWindow.restore()
+  }
+  currentWindow.show()
+  currentWindow.focus()
 })
 
 ipcMain.handle('app:navigate-top-level', async (event, entryUrl) => {
@@ -250,5 +321,6 @@ app.on('window-all-closed', () => {
 })
 
 app.on('before-quit', () => {
+  memoryMonitor.stop()
   watchdog.close()
 })

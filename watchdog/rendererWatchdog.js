@@ -226,6 +226,10 @@ function createRendererWatchdog(options) {
     return { ok: true }
   }
 
+  function reportEvent(payload = {}) {
+    send(createEvent(payload))
+  }
+
   const timer = setInterval(() => {
     if (!canObserve()) return
 
@@ -309,6 +313,7 @@ function createRendererWatchdog(options) {
     isPaused,
     setRecoveryEnabled,
     setHeartbeatEnabled,
+    reportEvent,
     close,
   }
 }

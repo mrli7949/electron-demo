@@ -31,8 +31,8 @@ const WATCHDOG_CONFIG = {
     enabled: true,
     dirName: 'watchdog-zzcd-logs',
     filePrefix: 'watchdog',
-    maxFileSizeMb: 16,
-    maxFiles: 32,
+    maxFileSizeMb: 2,
+    maxFiles: 10,
     logHeartbeats: false,
   },
 
