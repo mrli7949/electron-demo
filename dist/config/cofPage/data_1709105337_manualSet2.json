@@ -1,0 +1,564 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle2",
+            "FillColor": "#000a2a60",
+            "IsLocked": "false",
+            "Location": "0,30",
+            "Radius": "5,5,5,5",
+            "Size": "1168,222"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#003399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "zxj",
+            "CtrlName": "Button_1_3_2_1_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "898,607",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_manualSet1P.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "BackgroundColor": "#ff3399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "SQ",
+            "CtrlName": "Button_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "1088,607",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#183399ff",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1",
+            "FillColor": "#183399ff",
+            "IsLocked": "false",
+            "Location": "0,30",
+            "Radius": "0,0,0,0",
+            "Size": "1168,48"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "CtrlName": "Rectangle_2",
+            "FillColor": "#ff3399ff",
+            "IsLocked": "false",
+            "Location": "0,77",
+            "Radius": "0,0,0,0",
+            "Size": "1168,2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "MZF",
+            "CtrlName": "Label_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "0",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "56,39",
+            "Size": "100,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "W6fk",
+            "CtrlName": "Label3_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffeff4fe",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "0",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "523,39",
+            "Size": "100,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "pU1",
+            "CtrlName": "Label3_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffeff4fe",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "0",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "826,39",
+            "Size": "100,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#147f8ba8",
+            "BorderColor": "#ff7f8ba8",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "9g2",
+            "CtrlName": "Button_1_3_2_1_1_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ff7f8ba8",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "993,607",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "d3gVM421t/4k",
+            "CtrlName": "Label23_1_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "0",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "56,152",
+            "Size": "250,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "lvWVM421ej(%)",
+            "CtrlName": "Label6_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "0",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "56,199",
+            "Size": "272,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "Pa",
+            "CtrlName": "Label41_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "0",
+            "Expression": {
+                "-": {
+                    "Color": "#ffffffff",
+                    "Content": "NA"
+                },
+                "0": {
+                    "Color": "#ffffffff",
+                    "Content": "v3"
+                },
+                "1": {
+                    "Color": "#ff55ff00",
+                    "Content": "3O"
+                }
+            },
+            "FieldValue": [
+                {
+                    "nodeId": "Label_9-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "523,152",
+            "Size": "60,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#000a2a60",
+            "BorderColor": "#ff144e80",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_2-1-0"
+            },
+            "CtrlName": "Input_1_1_1",
+            "DataTimeout": "0",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_2-3"
+            },
+            "HideJudgeValue": [
+                "1"
+            ],
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "826,196",
+            "QuerySource": {
+                "nodeId": "Input_2-2"
+            },
+            "RelateID": "0",
+            "Size": "120,36",
+            "TextAlign": "2",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "NA",
+            "CtrlName": "Label_15_4",
+            "DataSourceJump": "false",
+            "DataTimeout": "0",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_5-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "523,199",
+            "Size": "100,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "BackgroundColor": "#ff3399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "ButtonDirectValue": [
+                "0"
+            ],
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "0J",
+            "ControlSource": {
+                "nodeId": "Button_20-1-0"
+            },
+            "CtrlName": "Button_1_3_2_1_1_2_1_2_1_1_1_2_1",
+            "DataTimeout": "0",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "2",
+            "HideDataSource": {
+                "nodeId": "Button_20-3"
+            },
+            "HideJudgeValue": [
+                "1"
+            ],
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "826,147",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "BackgroundColor": "#ff3399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "0",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "ButtonDirectValue": [
+                "1"
+            ],
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "Hn",
+            "ControlSource": {
+                "nodeId": "Button_21-1-0"
+            },
+            "CtrlName": "Button_1_3_2_1_1_2_1_2_1_1_1_1_1_1",
+            "DataTimeout": "0",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "2",
+            "HideDataSource": {
+                "nodeId": "Button_21-3"
+            },
+            "HideJudgeValue": [
+                "1"
+            ],
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "826,147",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "aPwVM111XX4HrJ(%)",
+            "CtrlName": "Label6_2_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "0",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "56,103",
+            "Size": "289,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "NA",
+            "CtrlName": "Label_15_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "0",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_1-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "523,103",
+            "Size": "100,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#000a2a60",
+            "BorderColor": "#ff144e80",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_1-1-0"
+            },
+            "CtrlName": "Input_1_3_1",
+            "DataTimeout": "0",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "826,100",
+            "QuerySource": {
+                "nodeId": "Input_1-2"
+            },
+            "RelateID": "0",
+            "Size": "120,36",
+            "TextAlign": "2",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    }
+]

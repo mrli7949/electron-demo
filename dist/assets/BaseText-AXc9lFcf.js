@@ -1,0 +1,1 @@
+import{O as e,S as t,w as n}from"./vendor-D-x5ju_d.js";var r=n({name:`BaseText`,props:{type:String,size:String},setup(n,{slots:r,attrs:i}){return()=>t(`span`,e(i,{class:[`base-text`,n.type&&`base-text--${n.type}`,n.size&&`base-text--${n.size}`,i.class]}),[r.default?.()])}});export{r as t};

@@ -1,0 +1,253 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,730",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "CtrlName": "Image_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "LocalNetworkSet.png",
+            "IsLocked": "false",
+            "Location": "307,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1587543746_LocalNetworkSet.json"
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "CtrlName": "Image_2",
+            "DataTimeout": "3000",
+            "ImgSrc": "update.png",
+            "IsLocked": "false",
+            "Location": "960,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1587543746_LocalAboutInfo.json"
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "CtrlName": "Image_1_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "reset.png",
+            "IsLocked": "false",
+            "Location": "741,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_rangeParam.json"
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "KYnW",
+            "CtrlName": "label_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "714,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "2",
+            "Content": "iYvn",
+            "CtrlName": "label_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "280,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "WML1",
+            "CtrlName": "label_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "933,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "CtrlName": "Image_2_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "intelligentManage.png",
+            "IsLocked": "false",
+            "Location": "524,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_intelligentManageP.json"
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_2_2",
+            "DataTimeout": "3000",
+            "ImgSrc": "systemSet.png",
+            "IsLocked": "false",
+            "Location": "90,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_systemSet1P.json"
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "1PB8",
+            "CtrlName": "label_1_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "497,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "BgvZ",
+            "CtrlName": "label_1_1_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "63,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "CtrlName": "Image_2_3",
+            "DataTimeout": "3000",
+            "ImgSrc": "paramControl.png",
+            "IsLocked": "false",
+            "Location": "90,344",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_paramControl1.json"
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "rTzz",
+            "CtrlName": "label_1_1_1_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "63,499",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    }
+]

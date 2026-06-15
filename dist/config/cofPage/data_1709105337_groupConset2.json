@@ -1,0 +1,467 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1136,590",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1",
+            "FillColor": "#003e70a2",
+            "IsLocked": "false",
+            "Location": "920,0",
+            "Radius": "0,0,0,0",
+            "Size": "214,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_4_1",
+            "FillColor": "#293e70a2",
+            "IsLocked": "false",
+            "Location": "0,0",
+            "Radius": "0,0,0,0",
+            "Size": "350,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1_6_1_2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "352,67",
+            "Radius": "0,0,0,0",
+            "Size": "214,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_4_1_2",
+            "FillColor": "#293e70a2",
+            "IsLocked": "false",
+            "Location": "0,67",
+            "Radius": "0,0,0,0",
+            "Size": "350,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1_1",
+            "FillColor": "#293e70a2",
+            "IsLocked": "false",
+            "Location": "568,67",
+            "Radius": "0,0,0,0",
+            "Size": "350,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1_1",
+            "FillColor": "#003e70a2",
+            "IsLocked": "false",
+            "Location": "920,67",
+            "Radius": "0,0,0,0",
+            "Size": "214,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1",
+            "FillColor": "#293e70a2",
+            "IsLocked": "false",
+            "Location": "568,0",
+            "Radius": "0,0,0,0",
+            "Size": "350,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#7d3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1_6_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "352,0",
+            "Radius": "0,0,0,0",
+            "Size": "214,66"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "MBeoHVPgtP4(s)",
+            "CtrlName": "Label10_2_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "13,66",
+            "Size": "340,66",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#003e70a2",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_2-1-0"
+            },
+            "CtrlName": "Input_1_2_1_1_2",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "isDisabled": "true"
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "18",
+            "GroupID": "1",
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "0",
+                "inputType": 1,
+                "toNumber": "300"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "358,75",
+            "QuerySource": {
+                "nodeId": "Input_2-2"
+            },
+            "RelateID": "0",
+            "Size": "150,48",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "zdsSQ/ckaipZx",
+            "CtrlName": "Label10_2_1_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "13,0",
+            "Size": "340,66",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Switch",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#003e70a2",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "Switch",
+            "ControlSource": {
+                "nodeId": "Input_3-1-0"
+            },
+            "CtrlName": "Input_1_2_1_1_1_1_1",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "RadioList": [
+                    {
+                        "context": "g8",
+                        "value": "1"
+                    },
+                    {
+                        "context": "vp",
+                        "value": "0"
+                    }
+                ],
+                "isDisabled": "true"
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "18",
+            "GroupID": "1",
+            "InputTips": "",
+            "InputType": {
+                "inputType": 0
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "358,10",
+            "QuerySource": {
+                "nodeId": "Input_3-2"
+            },
+            "RelateID": "0",
+            "Size": "150,48",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "amjK",
+            "CtrlName": "Label3",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "579,0",
+            "Size": "340,66",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "0",
+            "CtrlName": "Label4_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_4-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "929,0",
+            "Size": "135,66",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "JgI5",
+            "CtrlName": "Label10_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HideDataSource": {
+                "nodeId": "Label_6-3"
+            },
+            "HideJudgeValue": [
+                "1"
+            ],
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "579,67",
+            "Size": "340,66",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "0",
+            "CtrlName": "Label4_1_2_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_8-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HideDataSource": {
+                "nodeId": "Label_8-3"
+            },
+            "HideJudgeValue": [
+                "1"
+            ],
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "929,67",
+            "Size": "135,66",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#3d7f8ba8",
+            "BorderColor": "#ff7f8ba8",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "AVt",
+            "CtrlName": "Button_1_3_2_1_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ff7f88a8",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "1028,530",
+            "PassThroughValue": "0",
+            "Radius": "6",
+            "Size": "108,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#003399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "8iJ",
+            "CtrlName": "Button_1_3_2_1_1_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "907,530",
+            "PassThroughValue": "0",
+            "Radius": "6",
+            "Size": "108,60",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_groupConset1.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "C 2/2 Q",
+            "CtrlName": "Label12_1_1_7_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "690,530",
+            "Size": "202,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    }
+]

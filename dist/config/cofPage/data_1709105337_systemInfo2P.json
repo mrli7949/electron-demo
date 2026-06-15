@@ -1,0 +1,416 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#000a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle2",
+            "FillColor": "#00000000",
+            "HideDataSource": {
+                "nodeId": "Rectangle2-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "IsLocked": "false",
+            "Location": "0,30",
+            "Radius": "5,5,5,5",
+            "Size": "1168,186"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle2_1",
+            "FillColor": "#00000000",
+            "HideDataSource": {
+                "nodeId": "Rectangle_2-3"
+            },
+            "HideJudgeValue": [
+                "1"
+            ],
+            "IsLocked": "false",
+            "Location": "0,30",
+            "Radius": "5,5,5,5",
+            "Size": "1168,99"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#003399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "7wL",
+            "CtrlName": "Button_1_3_2_1_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "993,607",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_systemInfo1P.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#147f8ba8",
+            "BorderColor": "#ff7f8ba8",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "Ad8",
+            "CtrlName": "Button_1_3_2_1_1_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ff7f8ba8",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "1088,607",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image8_1_1_5",
+            "DataTimeout": "3000",
+            "HideDataSource": {
+                "nodeId": "Image_13-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "ImgSrc": "split.png",
+            "IsLocked": "false",
+            "Location": "17,110",
+            "Size": "480,16",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image8_1_1_11",
+            "DataTimeout": "3000",
+            "HideDataSource": {
+                "nodeId": "Image_22-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "ImgSrc": "split.png",
+            "IsLocked": "false",
+            "Location": "670,110",
+            "Size": "480,16",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "7ZZ45zkV(A)",
+            "CtrlName": "Label12_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ff9caacc",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "687,30",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "NA",
+            "CtrlName": "Label4_1_2_9_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_15-1"
+                },
+                {
+                    "nodeId": "Label_15-2"
+                },
+                {
+                    "nodeId": "Label_15-3"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "0",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "687,66",
+            "Size": "222,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_1_5",
+            "DataTimeout": "3000",
+            "ImgSrc": "000CDU_zhuangshidian.png",
+            "IsLocked": "false",
+            "Location": "670,58",
+            "Size": "6,6",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_1_8_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "000CDU_zhuangshidian.png",
+            "IsLocked": "false",
+            "Location": "17,56",
+            "Size": "6,6",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "MWlopQNA(V)",
+            "CtrlName": "Label11_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ff9caacc",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "31,29",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "NA",
+            "CtrlName": "Label4_1_2_1_5",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_22-1"
+                },
+                {
+                    "nodeId": "Label_22-2"
+                },
+                {
+                    "nodeId": "Label_22-3"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "0",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "31,68",
+            "Size": "120,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_1_7_1",
+            "DataTimeout": "3000",
+            "HideDataSource": {
+                "nodeId": "Image_25-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "ImgSrc": "000CDU_zhuangshidian.png",
+            "IsLocked": "false",
+            "Location": "17,140",
+            "Size": "6,6",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "EBgBIr",
+            "CtrlName": "Label23_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ff9caacc",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "HideDataSource": {
+                "nodeId": "Label_1-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "31,113",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "NA",
+            "CtrlName": "Label4_1_2_6",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "Expression": {
+                "-": {
+                    "Color": "#ffffffff",
+                    "Content": "NA"
+                },
+                "0": {
+                    "Color": "#ffffffff",
+                    "Content": "cV"
+                },
+                "1": {
+                    "Color": "#ffffffff",
+                    "Content": "co"
+                }
+            },
+            "FieldValue": [
+                {
+                    "nodeId": "Label_2-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HideDataSource": {
+                "nodeId": "Label_2-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "HorizontalAlign": "0",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "31,156",
+            "Size": "120,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    }
+]

@@ -1,0 +1,1355 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle2",
+            "FillColor": "#00000000",
+            "HideDataSource": {
+                "nodeId": "Rectangle2-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "IsLocked": "false",
+            "Location": "0,30",
+            "Radius": "5,5,5,5",
+            "Size": "1168,509"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1_1_4",
+            "FillColor": "#3d3e70a2",
+            "HideDataSource": {
+                "nodeId": "Rectangle_30-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "IsLocked": "false",
+            "Location": "586,453",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1_1_3",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,386",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,319",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1_1_2",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,252",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1_1_1",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,185",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1_1",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,118",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,50",
+            "Radius": "0,0,0,0",
+            "Size": "340,67"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_8",
+            "FillColor": "#3d3e70a2",
+            "HideDataSource": {
+                "nodeId": "Rectangle_14-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "IsLocked": "false",
+            "Location": "19,453",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_7",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,386",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,319",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_6",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,252",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_5",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,185",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_4",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,118",
+            "Radius": "0,0,0,0",
+            "Size": "340,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_3",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,50",
+            "Radius": "0,0,0,0",
+            "Size": "340,67"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "h3OE6Xk(%)",
+            "CtrlName": "Label_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "95,54",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1_1_4",
+            "FillColor": "#00000000",
+            "HideDataSource": {
+                "nodeId": "Rectangle_28-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "IsLocked": "false",
+            "Location": "927,453",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1_1_3",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,386",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,319",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1_1_2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,252",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1_1_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,185",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,118",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,50",
+            "Radius": "0,0,0,0",
+            "Size": "225,67"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1_4",
+            "FillColor": "#00000000",
+            "HideDataSource": {
+                "nodeId": "Rectangle_29-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "IsLocked": "false",
+            "Location": "360,453",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1_3",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,386",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,319",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1_2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,252",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,185",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,118",
+            "Radius": "0,0,0,0",
+            "Size": "225,66"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,50",
+            "Radius": "0,0,0,0",
+            "Size": "225,67"
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_2-1-0"
+            },
+            "CtrlName": "Input_1_2",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "InputDisabledValue": [
+                    "2"
+                ]
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_2-3"
+            },
+            "InputTips": "qQ6spUAMml67j！",
+            "InputType": {
+                "fromNumber": "10.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,64",
+            "QuerySource": {
+                "nodeId": "Input_2-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_4-1-0"
+            },
+            "CtrlName": "Input_1_2_2",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "L9aiOkRYAoPB9！",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,198",
+            "QuerySource": {
+                "nodeId": "Input_4-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_5-1-0"
+            },
+            "CtrlName": "Input_1_2_3",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "InputDisabledValue": [
+                    "2"
+                ]
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_5-3"
+            },
+            "InputTips": "tqyPhiJ5tx0JZ！",
+            "InputType": {
+                "fromNumber": "10.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "944,64",
+            "QuerySource": {
+                "nodeId": "Input_5-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_6-1-0"
+            },
+            "CtrlName": "Input_1_2_4",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "L5ei906P7yMnW！",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "944,198",
+            "QuerySource": {
+                "nodeId": "Input_6-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_7-1-0"
+            },
+            "CtrlName": "Input_1_2_5",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "InputDisabledValue": [
+                    "2"
+                ]
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_7-3"
+            },
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "1",
+                "inputType": 1,
+                "toNumber": "999"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,131",
+            "QuerySource": {
+                "nodeId": "Input_7-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_9-1-0"
+            },
+            "CtrlName": "Input_1_2_7",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "InputDisabledValue": [
+                    "2"
+                ]
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_9-3"
+            },
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "944,131",
+            "QuerySource": {
+                "nodeId": "Input_9-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_12-1-0"
+            },
+            "CtrlName": "Input_1_2_10",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "1",
+                "inputType": 1,
+                "toNumber": "999"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,332",
+            "QuerySource": {
+                "nodeId": "Input_12-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_13-1-0"
+            },
+            "CtrlName": "Input_1_2_11",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_13-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "1",
+                "inputType": 1,
+                "toNumber": "999"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,466",
+            "QuerySource": {
+                "nodeId": "Input_13-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_14-1-0"
+            },
+            "CtrlName": "Input_1_2_12",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "1",
+                "inputType": 1,
+                "toNumber": "999"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "944,332",
+            "QuerySource": {
+                "nodeId": "Input_14-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_15-1-0"
+            },
+            "CtrlName": "Input_1_2_13",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "Vktty6kpbjccP！",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,265",
+            "QuerySource": {
+                "nodeId": "Input_15-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_16-1-0"
+            },
+            "CtrlName": "Input_1_2_14",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "ExtendJson": {
+                "InputDisabledValue": [
+                    "2"
+                ]
+            },
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_16-3"
+            },
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "1.00",
+                "inputType": 1,
+                "toNumber": "5.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,399",
+            "QuerySource": {
+                "nodeId": "Input_16-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_17-1-0"
+            },
+            "CtrlName": "Input_1_2_15",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "InputTips": "2gLfCYWALLLUx！",
+            "InputType": {
+                "fromNumber": "0.00",
+                "inputType": 1,
+                "toNumber": "100.00"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "944,265",
+            "QuerySource": {
+                "nodeId": "Input_17-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "BackgroundColor": "#ff3399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "1",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "zD",
+            "CtrlName": "Button_1",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "1088,607",
+            "PassThroughValue": "0",
+            "Radius": "4",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Input",
+        "propValue": {
+            "AuthLevel": "3",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff3e70a2",
+            "ClassCustomName": "",
+            "ControlSource": {
+                "nodeId": "Input_11-1-0"
+            },
+            "CtrlName": "Input_1_2_9",
+            "DataTimeout": "3000",
+            "DefaultValue": "0.00",
+            "FontColor": "#ffffffff",
+            "FontSize": "21",
+            "GroupID": "1",
+            "HideDataSource": {
+                "nodeId": "Input_11-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "InputTips": "",
+            "InputType": {
+                "fromNumber": "0",
+                "inputType": 1,
+                "toNumber": "999"
+            },
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "944,399",
+            "QuerySource": {
+                "nodeId": "Input_11-2"
+            },
+            "RelateID": "1",
+            "Size": "150,40",
+            "TextAlign": "0",
+            "Tooltip": "0.00",
+            "errMes": "",
+            "logMessage": ""
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "amgOI1Q(%)",
+            "CtrlName": "Label_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "663,54",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "VSvBBGB(h)",
+            "CtrlName": "Label_1_4",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "95,121",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "3iDa6bK(bar)",
+            "CtrlName": "Label_1_6",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "663,121",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "EnXortdvG8(L/min)",
+            "CtrlName": "Label_1_8",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HideDataSource": {
+                "nodeId": "Label_10-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "621,389",
+            "Size": "292,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "h4taIPOXxIk(min)",
+            "CtrlName": "Label_1_10",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HideDataSource": {
+                "nodeId": "Label_12-3"
+            },
+            "HideJudgeValue": [
+                "0",
+                "-"
+            ],
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "56,456",
+            "Size": "289,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "StZ72tJ(%)",
+            "CtrlName": "Label_1_12",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "95,255",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "T55wUTq(%)",
+            "CtrlName": "Label_1_14",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "663,255",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "nTn4T3T(%)",
+            "CtrlName": "Label_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "95,188",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "hEvMmWW(%)",
+            "CtrlName": "Label_1_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "663,188",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "nNzQKtVP5p3(s)",
+            "CtrlName": "Label_1_9",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "76,322",
+            "Size": "269,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "w49Yoivk(min)",
+            "CtrlName": "Label_1_11",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "668,322",
+            "Size": "245,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "pnv6e(℃)",
+            "CtrlName": "Label_1_13",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "95,389",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "0",
+            "CtrlName": "Rectangle_1_1_1_2",
+            "FillColor": "#ff3e70a2",
+            "IsLocked": "false",
+            "Location": "0,0",
+            "Radius": "0,0,0,0",
+            "Size": "1170,1"
+        }
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff182942",
+            "BackgroundImage": "bg.png",
+            "DataTimeout": "10000",
+            "Size": "1212,712",
+            "SizeType": "Default"
+        }
+    }
+]

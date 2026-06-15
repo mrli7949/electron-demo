@@ -1,0 +1,151 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "0,30",
+            "Radius": "5,5,5,5",
+            "Size": "1168,109"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1_1",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "586,50",
+            "Radius": "0,0,0,0",
+            "Size": "340,67"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_3",
+            "FillColor": "#3d3e70a2",
+            "IsLocked": "false",
+            "Location": "19,50",
+            "Radius": "0,0,0,0",
+            "Size": "340,67"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_1_1",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "927,50",
+            "Radius": "0,0,0,0",
+            "Size": "225,67"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "BorderColor": "#ff3e70a2",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_2_2",
+            "FillColor": "#00000000",
+            "IsLocked": "false",
+            "Location": "360,50",
+            "Radius": "0,0,0,0",
+            "Size": "225,67"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "2",
+            "Content": "MPJw37",
+            "CtrlName": "Label_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffa7bee3",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "95,54",
+            "Size": "250,60",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BackgroundColor": "#ff3399ff",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "0",
+            "ButtonClass": "0",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "ButtonDirectValue": [
+                "1"
+            ],
+            "CabId": "1",
+            "CabType": "106",
+            "ClassCustomName": "",
+            "Content": "87",
+            "ControlSource": {
+                "nodeId": "Button_2-1-0"
+            },
+            "CtrlName": "Button_2",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "19",
+            "GroupID": "1",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "377,64",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "80,40",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    }
+]

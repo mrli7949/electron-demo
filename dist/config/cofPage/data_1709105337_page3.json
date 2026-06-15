@@ -1,0 +1,52 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#000a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1160,650",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "MultiChart",
+        "propValue": {
+            "Alpha": "1",
+            "AreaStyle": "0",
+            "AuthLevel": "0",
+            "ChartType": "0",
+            "ChartYMax": "100",
+            "ChartYMin": "0",
+            "CtrlName": "MultiChart_1",
+            "DataTimeout": "3000",
+            "DateTimeFormat": "0",
+            "FieldIdNum": "4",
+            "FontSize": "12",
+            "IsAreraColor": "false",
+            "IsLabelShow": "true",
+            "IsLocked": "false",
+            "IsSmooth": "true",
+            "IsStaggered": "false",
+            "LablePosition": "0",
+            "LableX": "",
+            "LableY": "",
+            "LendHorizontal": "2",
+            "Location": "89,48",
+            "RrdFile": "",
+            "ShowAxislineX": "false",
+            "ShowAxislineY": "true",
+            "ShowLableX": "true",
+            "ShowLableY": "true",
+            "ShowLengend": "true",
+            "Size": "970,524",
+            "ThemeColor": "[\"#00c5cc\",\"#66cc00\",\"#ffd203\",\"#fd5f00\",\"#fd0100\",\"#6800e9\",\"#3430eb\",\"#ffc5ff\",\"#66cc00\",\"#ffd203\",\"#fd5f00\",\"#fd0100\",\"#6800e9\",\"#3430eb\",\"#ffc5ff\"]",
+            "XPointNum": "6",
+            "axisColor": "#ff333333",
+            "gridColor": "#ffcccccc",
+            "xAxisLabelColor": "#ffa6a6b8",
+            "yAxisLabelColor": "#ffa6a6b8"
+        }
+    }
+]

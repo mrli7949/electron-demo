@@ -1,0 +1,344 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff182942",
+            "BackgroundImage": "bg.png",
+            "DataTimeout": "10000",
+            "Size": "1136,625",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "UpdateByUSB",
+        "propValue": {
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffffffff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "1",
+            "ClassCustomName": "",
+            "ColumnWidth": "100,100,100,100,100",
+            "ColumnsNumber": "5",
+            "CtrlName": "RealTable_1",
+            "DataSource": "get_data",
+            "DataTimeout": "120000",
+            "FrozenLine": "0",
+            "GridColor": "#ff000000",
+            "GroupId": "",
+            "LineNumber": "3",
+            "Location": "0,0",
+            "MultiHeader": "false",
+            "PaginationNum": "20",
+            "QuerySource": "",
+            "RowHiegth": "30,30,30",
+            "RowNoDataHide": "false",
+            "ShowGrid": "true",
+            "Size": "1136,157",
+            "TableValue": [
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                }
+            ],
+            "dataType": "1",
+            "styleType": "color"
+        }
+    }
+]

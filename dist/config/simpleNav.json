@@ -1,0 +1,703 @@
+[
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data2_1709105337_homeS",
+        "parent": "data_1709105337_homeS",
+        "scale": "5rem 5rem",
+        "title": "首页",
+        "url": "data_1709105337_homeS"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data2_1709105337_homeS"
+        ],
+        "display": "true",
+        "id": "data_1709105337_homeS",
+        "parent": "data_1709105337_homeS",
+        "scale": "5rem 5rem",
+        "title": "系统首页",
+        "url": "data_1709105337_homeS"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_realtimeMonitorS",
+        "parent": "data2_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "整机信息",
+        "url": "data_1709105337_realtimeMonitorS"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_groupConsta",
+        "parent": "data2_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "联机信息",
+        "url": "data_1709105337_groupConsta"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data3_1709105337_realtimeMonitorS",
+            "data3_1709105337_groupConsta"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_realtimeMonitorS",
+        "parent": "data_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "系统信息",
+        "url": "data_1709105337_realtimeMonitorS"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data2_1709105337_onceSide",
+        "parent": "data_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "一次侧",
+        "url": "data_1709105337_onceSide"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data3_1709105337_secondarySide1S",
+        "parent": "data2_1709105337_secondarySide1S",
+        "scale": "5rem 5rem",
+        "title": "二次侧-第一页",
+        "url": "data_1709105337_secondarySide1S"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data3_1709105337_secondarySide2S",
+        "parent": "data2_1709105337_secondarySide1S",
+        "scale": "5rem 5rem",
+        "title": "二次侧-第二页",
+        "url": "data_1709105337_secondarySide2S"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data3_1709105337_secondarySide3S",
+        "parent": "data2_1709105337_secondarySide1S",
+        "scale": "5rem 5rem",
+        "title": "二次侧-第三页",
+        "url": "data_1709105337_secondarySide3S"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data3_1709105337_secondarySide1S",
+            "data3_1709105337_secondarySide2S",
+            "data3_1709105337_secondarySide3S"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_secondarySide1S",
+        "parent": "data_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "二次侧",
+        "url": "data_1709105337_secondarySide1S"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data2_1709105337_healthMonitS",
+        "parent": "data_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "健康度",
+        "url": "data_1709105337_healthMonitS"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data2_1709105337_realtimeMonitorS",
+            "data2_1709105337_onceSide",
+            "data2_1709105337_secondarySide1S",
+            "data2_1709105337_healthMonitS"
+        ],
+        "display": "true",
+        "id": "data_1709105337_realtimeMonitorS",
+        "parent": "data_1709105337_realtimeMonitorS",
+        "scale": "5rem 5rem",
+        "title": "实时监控",
+        "url": "data_1709105337_realtimeMonitorS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_recordPageS",
+        "parent": "data2_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "当前告警",
+        "url": "data_1709105337_recordPageS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_his_alarm",
+        "parent": "data2_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "历史告警",
+        "url": "data_1709105337_his_alarm"
+    },
+    {
+        "AuthLevel": "2",
+        "children": [
+            "data3_1709105337_recordPageS",
+            "data3_1709105337_his_alarm"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_recordPageS",
+        "parent": "data_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "历史告警",
+        "url": "data_1709105337_recordPageS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_pressurewaveS",
+        "parent": "data2_1709105337_pressurewaveS",
+        "scale": "5rem 5rem",
+        "title": "二次侧压力曲线",
+        "url": "data_1709105337_pressurewaveS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_flowwaveS",
+        "parent": "data2_1709105337_pressurewaveS",
+        "scale": "5rem 5rem",
+        "title": "二次侧流量曲线",
+        "url": "data_1709105337_flowwaveS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_thwaveS",
+        "parent": "data2_1709105337_pressurewaveS",
+        "scale": "5rem 5rem",
+        "title": "温度曲线",
+        "url": "data_1709105337_thwaveS"
+    },
+    {
+        "AuthLevel": "2",
+        "children": [
+            "data3_1709105337_pressurewaveS",
+            "data3_1709105337_flowwaveS",
+            "data3_1709105337_thwaveS"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_pressurewaveS",
+        "parent": "data_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "历史数据",
+        "url": "data_1709105337_pressurewaveS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data2_1709105337_his_sysctrl",
+        "parent": "data_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "系统日志",
+        "url": "data_1709105337_his_sysctrl"
+    },
+    {
+        "AuthLevel": "4",
+        "display": "true",
+        "id": "data2_1709105337_his_inalarm",
+        "parent": "data_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "内部告警",
+        "url": "data_1709105337_his_inalarm"
+    },
+    {
+        "AuthLevel": "4",
+        "display": "true",
+        "id": "data2_1709105337_his_ctrl",
+        "parent": "data_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "内部日志",
+        "url": "data_1709105337_his_ctrl"
+    },
+    {
+        "AuthLevel": "2",
+        "children": [
+            "data2_1709105337_recordPageS",
+            "data2_1709105337_pressurewaveS",
+            "data2_1709105337_his_sysctrl",
+            "data2_1709105337_his_inalarm",
+            "data2_1709105337_his_ctrl"
+        ],
+        "display": "true",
+        "id": "data_1709105337_recordPageS",
+        "parent": "data_1709105337_recordPageS",
+        "scale": "5rem 5rem",
+        "title": "历史记录",
+        "url": "data_1709105337_recordPageS"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_engineeringManageS",
+        "parent": "data2_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "系统设置",
+        "url": "data_1709105337_engineeringManageS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_systemSet2S",
+        "parent": "data2_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "补液设置",
+        "url": "data_1709105337_systemSet2S"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_groupConset1",
+        "parent": "data3_1709105337_groupConset1",
+        "scale": "5rem 5rem",
+        "title": "联机设置-第一页",
+        "url": "data_1709105337_groupConset1"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_groupConset2",
+        "parent": "data3_1709105337_groupConset1",
+        "scale": "5rem 5rem",
+        "title": "联机设置-第二页",
+        "url": "data_1709105337_groupConset2"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data4_1709105337_groupConset1",
+            "data4_1709105337_groupConset2"
+        ],
+        "display": "true",
+        "id": "data3_1709105337_groupConset1",
+        "parent": "data2_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "联机设置",
+        "url": "data_1709105337_groupConset1"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_alarmSet1",
+        "parent": "data3_1709105337_alarmSet1",
+        "scale": "5rem 5rem",
+        "title": "告警设置-第一页",
+        "url": "data_1709105337_alarmSet1"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_alarmSet2",
+        "parent": "data3_1709105337_alarmSet1",
+        "scale": "5rem 5rem",
+        "title": "告警设置-第二页",
+        "url": "data_1709105337_alarmSet2"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_alarmSet3",
+        "parent": "data3_1709105337_alarmSet1",
+        "scale": "5rem 5rem",
+        "title": "告警设置-第三页",
+        "url": "data_1709105337_alarmSet3"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_alarmSet4",
+        "parent": "data3_1709105337_alarmSet1",
+        "scale": "5rem 5rem",
+        "title": "告警设置-第四页",
+        "url": "data_1709105337_alarmSet4"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_alarmSet5",
+        "parent": "data3_1709105337_alarmSet1",
+        "scale": "5rem 5rem",
+        "title": "告警设置-第五页",
+        "url": "data_1709105337_alarmSet5"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "false",
+        "id": "data4_1709105337_alarmSet6",
+        "parent": "data3_1709105337_alarmSet1",
+        "scale": "5rem 5rem",
+        "title": "告警设置-第六页",
+        "url": "data_1709105337_alarmSet6"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data4_1709105337_alarmSet1",
+            "data4_1709105337_alarmSet2",
+            "data4_1709105337_alarmSet3",
+            "data4_1709105337_alarmSet4",
+            "data4_1709105337_alarmSet5",
+            "data4_1709105337_alarmSet6"
+        ],
+        "display": "true",
+        "id": "data3_1709105337_alarmSet1",
+        "parent": "data2_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "告警设置",
+        "url": "data_1709105337_alarmSet1"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_manualSet1S",
+        "parent": "data2_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "手动设置",
+        "url": "data_1709105337_manualSet1S"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_liquidSet",
+        "parent": "data2_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "活液设置",
+        "url": "data_1709105337_liquidSet"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data3_1709105337_engineeringManageS",
+            "data3_1709105337_systemSet2S",
+            "data3_1709105337_groupConset1",
+            "data3_1709105337_alarmSet1",
+            "data3_1709105337_manualSet1S",
+            "data3_1709105337_liquidSet"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_engineeringManageS",
+        "parent": "data_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "系统管理",
+        "url": "data_1709105337_engineeringManageS"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_TCPModbusSet",
+        "parent": "data2_1709105337_TCPModbusSet",
+        "scale": "5rem 5rem",
+        "title": "北向网络设置",
+        "url": "data_1709105337_TCPModbusSet"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1587543746_LocalNetworkSet",
+        "parent": "data2_1709105337_TCPModbusSet",
+        "scale": "5rem 5rem",
+        "title": "触摸屏网络设置",
+        "url": "data_1587543746_LocalNetworkSet"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data3_1709105337_paramControl2",
+        "parent": "data2_1709105337_TCPModbusSet",
+        "scale": "5rem 5rem",
+        "title": "控制器网络设置",
+        "url": "data_1709105337_paramControl2"
+    },
+    {
+        "AuthLevel": "2",
+        "children": [
+            "data3_1709105337_TCPModbusSet",
+            "data3_1587543746_LocalNetworkSet",
+            "data3_1709105337_paramControl2"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_TCPModbusSet",
+        "parent": "data_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "通信设置",
+        "url": "data_1709105337_TCPModbusSet"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "false",
+        "id": "data4_1709105337_runParamS",
+        "parent": "data3_1709105337_runParamS",
+        "scale": "5rem 5rem",
+        "title": "运行参数-第一页",
+        "url": "data_1709105337_runParamS"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "false",
+        "id": "data4_1709105337_runParam2S",
+        "parent": "data3_1709105337_runParamS",
+        "scale": "5rem 5rem",
+        "title": "运行参数-第二页",
+        "url": "data_1709105337_runParam2S"
+    },
+    {
+        "AuthLevel": "3",
+        "children": [
+            "data4_1709105337_runParamS",
+            "data4_1709105337_runParam2S"
+        ],
+        "display": "true",
+        "id": "data3_1709105337_runParamS",
+        "parent": "data2_1709105337_runParamS",
+        "scale": "5rem 5rem",
+        "title": "运行参数",
+        "url": "data_1709105337_runParamS"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data3_1709105337_paramControl1",
+        "parent": "data2_1709105337_runParamS",
+        "scale": "5rem 5rem",
+        "title": "PID参数",
+        "url": "data_1709105337_paramControl1"
+    },
+    {
+        "AuthLevel": "3",
+        "children": [
+            "data3_1709105337_runParamS",
+            "data3_1709105337_paramControl1"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_runParamS",
+        "parent": "data_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "参数调试",
+        "url": "data_1709105337_runParamS"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "false",
+        "id": "data4_1709105337_rangeParam",
+        "parent": "data3_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "量程参数-第一页",
+        "url": "data_1709105337_rangeParam"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "false",
+        "id": "data4_1709105337_rangeParam2",
+        "parent": "data3_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "量程参数-第二页",
+        "url": "data_1709105337_rangeParam2"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "false",
+        "id": "data4_1709105337_rangeParam3",
+        "parent": "data3_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "量程参数-第三页",
+        "url": "data_1709105337_rangeParam3"
+    },
+    {
+        "AuthLevel": "3",
+        "children": [
+            "data4_1709105337_rangeParam",
+            "data4_1709105337_rangeParam2",
+            "data4_1709105337_rangeParam3"
+        ],
+        "display": "true",
+        "id": "data3_1709105337_rangeParam",
+        "parent": "data2_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "量程参数",
+        "url": "data_1709105337_rangeParam"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data3_1709105337_paramControl4",
+        "parent": "data2_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "选配配置",
+        "url": "data_1709105337_paramControl4"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data3_1709105337_intelligentManageS",
+        "parent": "data2_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "智能管理",
+        "url": "data_1709105337_intelligentManageS"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data3_1709105337_paramControl3",
+        "parent": "data2_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "限定参数",
+        "url": "data_1709105337_paramControl3"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data3_1709105337_systemConf",
+        "parent": "data2_1709105337_rangeParam",
+        "scale": "5rem 5rem",
+        "title": "系统配置",
+        "url": "data_1709105337_systemConf"
+    },
+    {
+        "AuthLevel": "3",
+        "children": [
+            "data3_1709105337_rangeParam",
+            "data3_1709105337_paramControl4",
+            "data3_1709105337_intelligentManageS",
+            "data3_1709105337_paramControl3",
+            "data3_1709105337_systemConf"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_rangeParam",
+        "parent": "data_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "出厂设置",
+        "url": "data_1709105337_rangeParam"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data2_1587543746_LocalAboutInfo",
+        "parent": "data_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "升级管理",
+        "url": "data_1587543746_LocalAboutInfo"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data2_1709105337_engineeringManageS",
+            "data2_1709105337_TCPModbusSet",
+            "data2_1709105337_runParamS",
+            "data2_1709105337_rangeParam",
+            "data2_1587543746_LocalAboutInfo"
+        ],
+        "display": "true",
+        "id": "data_1709105337_engineeringManageS",
+        "parent": "data_1709105337_engineeringManageS",
+        "scale": "5rem 5rem",
+        "title": "工程管理",
+        "url": "data_1709105337_engineeringManageS"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_aboutPage",
+        "parent": "data2_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "公司信息",
+        "url": "data_1709105337_aboutPage"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_productInfo",
+        "parent": "data2_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "产品信息",
+        "url": "data_1709105337_productInfo"
+    },
+    {
+        "AuthLevel": "1",
+        "display": "true",
+        "id": "data3_1709105337_version",
+        "parent": "data2_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "版本",
+        "url": "data_1709105337_version"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data3_1709105337_aboutPage",
+            "data3_1709105337_productInfo",
+            "data3_1709105337_version"
+        ],
+        "display": "true",
+        "id": "data2_1709105337_aboutPage",
+        "parent": "data_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "关于",
+        "url": "data_1709105337_aboutPage"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data2_1587543746_LocalScreenManage",
+        "parent": "data_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "屏幕管理",
+        "url": "data_1587543746_LocalScreenManage"
+    },
+    {
+        "AuthLevel": "2",
+        "display": "true",
+        "id": "data2_1587543746_LocalPasswordSet",
+        "parent": "data_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "密码设置",
+        "url": "data_1587543746_LocalPasswordSet"
+    },
+    {
+        "AuthLevel": "3",
+        "display": "true",
+        "id": "data2_1587543746_LocalRecordManage",
+        "parent": "data_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "记录管理",
+        "url": "data_1587543746_LocalRecordManage"
+    },
+    {
+        "AuthLevel": "4",
+        "display": "true",
+        "id": "data2_1587543746_LocalRightManage",
+        "parent": "data_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "权限管理",
+        "url": "data_1587543746_LocalRightManage"
+    },
+    {
+        "AuthLevel": "1",
+        "children": [
+            "data2_1709105337_aboutPage",
+            "data2_1587543746_LocalScreenManage",
+            "data2_1587543746_LocalPasswordSet",
+            "data2_1587543746_LocalRecordManage",
+            "data2_1587543746_LocalRightManage"
+        ],
+        "display": "true",
+        "id": "data_1709105337_aboutPage",
+        "parent": "data_1709105337_aboutPage",
+        "scale": "5rem 5rem",
+        "title": "更多功能",
+        "url": "data_1709105337_aboutPage"
+    }
+]

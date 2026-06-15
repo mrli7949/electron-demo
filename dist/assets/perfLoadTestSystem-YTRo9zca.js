@@ -1,1 +1,0 @@
-import{b as e,et as t,k as n,p as r}from"./vendor-4hWrXXWj.js";import{t as i}from"./PerfLoadTestView-D_zkRF_v.js";var a=[],o=e({name:`PerfLoadTestSystem`,__name:`index`,setup(e){return(e,o)=>(n(),r(i,{"category-id":`system`,"category-title":`系统管理`,pages:t(a)},null,8,[`pages`]))}});export{o as default};

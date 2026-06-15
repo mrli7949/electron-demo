@@ -1,0 +1,52 @@
+{
+    "isTwoD": false,
+    "theme": "dark",
+    "redirectUrl": "data_1709105337_homeS",
+    "hideAlarmConfirm": true,
+    "guardShowTitle": true,
+    "guardSensorSparkle": true,
+    "cabStyle": {
+        "0": {
+            "borderRadius": "50%",
+            "backgroundColor": "pink",
+            "padding": 0
+        }
+    },
+    "textureMap": {
+        "jg_bat": "",
+        "fgrey_big": "",
+        "fgrey_small": "",
+        "jg_full1": "",
+        "jg_half": "",
+        "jg_hvdc": "",
+        "jg_lx": "",
+        "jg_full": "",
+        "30_front": "",
+        "60_front": ""
+    },
+    "mtlNameMap": {
+        "jg_30": "",
+        "jg_60": "",
+        "kong_30": "",
+        "kong_60": "",
+        "ltd_30": "",
+        "ltd_60": "",
+        "men_01": "",
+        "men_02": "",
+        "oppo_jg_pd_a": "",
+        "oppo_jg_pd_b": "",
+        "oppo_jg_pd_c": "",
+        "oppo_jg_pd_d": "",
+        "oppo_R20_men_01": "",
+        "oppo_R20_men_02": "",
+        "qdh_ltd_40": "",
+        "qdh_ltd_60": "",
+        "qdh_men_01": "",
+        "qdh_men_02": "",
+        "tb_jg_06": "",
+        "tb_jg_12": "",
+        "tb_jg_16": "",
+        "tb_jg_40": "",
+        "tb_jg_60": ""
+    }
+}

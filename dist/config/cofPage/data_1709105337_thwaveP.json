@@ -1,0 +1,109 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#000a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "MultiChart",
+        "propValue": {
+            "Alpha": "1",
+            "AreaStyle": "0",
+            "AuthLevel": "1",
+            "ChartType": "0",
+            "ChartYMax": "100",
+            "ChartYMin": "0",
+            "CtrlName": "MultiChart_1",
+            "DataTimeout": "3000",
+            "DateTimeFormat": "0",
+            "ExtendJson": {
+                "chartNames": [
+                    "zHoxfaB(℃)",
+                    "hliLtNi(℃)",
+                    "SMIIHSe(℃)",
+                    "70huFdAu(℃)",
+                    "EzbP21eF(%)",
+                    "IkNP22Th(%)",
+                    "DvElUmJU(%)",
+                    "AXuHI6iE(%)"
+                ],
+                "component": "HistoryChart",
+                "display": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "maxNum": "6",
+                "page_id": "cab_1709105337_history_thwave",
+                "unit": [
+                    "℃",
+                    "℃",
+                    "℃",
+                    "℃",
+                    "%",
+                    "%",
+                    "%",
+                    "%"
+                ],
+                "userPriv": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "yPosition": [
+                    "left",
+                    "left",
+                    "left",
+                    "left",
+                    "right",
+                    "right",
+                    "right",
+                    "right"
+                ]
+            },
+            "FieldIdNum": "8",
+            "FieldValue": [
+            ],
+            "FontSize": "12",
+            "IsAreraColor": "false",
+            "IsLabelShow": "true",
+            "IsLocked": "false",
+            "IsSmooth": "true",
+            "IsStaggered": "false",
+            "LablePosition": "0",
+            "LableX": "",
+            "LableY": "",
+            "LendHorizontal": "2",
+            "Location": "1,23",
+            "RrdFile": "",
+            "ShowAxislineX": "false",
+            "ShowAxislineY": "true",
+            "ShowLableX": "true",
+            "ShowLableY": "true",
+            "ShowLengend": "true",
+            "Size": "1160,570",
+            "ThemeColor": "[\"#00c5cc\",\"#66cc00\",\"#ffd203\",\"#fd5f00\",\"#fd0100\",\"#6800e9\",\"#3430eb\",\"#ffc5ff\",\"#66cc00\",\"#ffd203\",\"#fd5f00\",\"#fd0100\",\"#6800e9\",\"#3430eb\",\"#ffc5ff\"]",
+            "XPointNum": "6",
+            "axisColor": "#ff333333",
+            "gridColor": "#ffcccccc",
+            "xAxisLabelColor": "#ffa6a6b8",
+            "yAxisLabelColor": "#ffa6a6b8"
+        }
+    }
+]

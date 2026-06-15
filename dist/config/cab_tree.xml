@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PageTree>
+    <Page id="10" title="历史" urlType="HistoryNg">
+        <Tab id="1" title="电池柜1" cab_type="104" cab_id="1">
+            <Module id="1" title="电池组1-1" page_id="cab_1616466255_historyBMS1" mod_id="0"/>
+            <Module id="2" title="电池组1~10" page_id="cab_1616466255_historyBMS1bat1" mod_id="0" url="subtitle">
+                <Module id="3" title="1" page_id="cab_1616466255_historyBMS1bat1" mod_id="0"/>
+                <Module id="4" title="2" page_id="cab_1616466255_historyBMS1bat2" mod_id="0"/>
+                <Module id="5" title="3" page_id="cab_1616466255_historyBMS1bat3" mod_id="0"/>
+                <Module id="6" title="4" page_id="cab_1616466255_historyBMS1bat4" mod_id="0"/>
+                <Module id="7" title="5" page_id="cab_1616466255_historyBMS1bat5" mod_id="0"/>
+                <Module id="8" title="6" page_id="cab_1616466255_historyBMS1bat6" mod_id="0"/>
+                <Module id="9" title="7" page_id="cab_1616466255_historyBMS1bat7" mod_id="0"/>
+                <Module id="10" title="8" page_id="cab_1616466255_historyBMS1bat8" mod_id="0"/>
+                <Module id="11" title="9" page_id="cab_1616466255_historyBMS1bat9" mod_id="0"/>
+                <Module id="12" title="10" page_id="cab_1616466255_historyBMS1bat10" mod_id="0"/>
+            </Module>
+            <Module id="13" title="电池组11~12" page_id="cab_1616466255_historyBMS1bat11" mod_id="0" url="subtitle">
+                <Module id="14" title="11" page_id="cab_1616466255_historyBMS1bat11" mod_id="0"/>
+                <Module id="15" title="12" page_id="cab_1616466255_historyBMS1bat12" mod_id="0"/>
+                <Module id="16" title="13" page_id="cab_1616466255_historyBMS1bat13" mod_id="0"/>
+                <Module id="17" title="14" page_id="cab_1616466255_historyBMS1bat14" mod_id="0"/>
+                <Module id="18" title="15" page_id="cab_1616466255_historyBMS1bat15" mod_id="0"/>
+                <Module id="19" title="16" page_id="cab_1616466255_historyBMS1bat16" mod_id="0"/>
+                <Module id="20" title="17" page_id="cab_1616466255_historyBMS1bat17" mod_id="0"/>
+                <Module id="21" title="18" page_id="cab_1616466255_historyBMS1bat18" mod_id="0"/>
+                <Module id="22" title="19" page_id="cab_1616466255_historyBMS1bat19" mod_id="0"/>
+                <Module id="23" title="20" page_id="cab_1616466255_historyBMS1bat20" mod_id="0"/>
+            </Module>
+        </Tab>
+        <Tab id="2" title="电池柜2" cab_type="104" cab_id="2">
+            <Module id="24" title="电池组2-2" page_id="cab_1616466255_historyBMS2" mod_id="0"/>
+            <Module id="25" title="电池组1~10" page_id="cab_1616466255_historyBMS2bat1" mod_id="0" url="subtitle">
+                <Module id="26" title="1" page_id="cab_1616466255_historyBMS2bat1" mod_id="0"/>
+                <Module id="27" title="2" page_id="cab_1616466255_historyBMS2bat2" mod_id="0"/>
+                <Module id="28" title="3" page_id="cab_1616466255_historyBMS2bat3" mod_id="0"/>
+                <Module id="29" title="4" page_id="cab_1616466255_historyBMS2bat4" mod_id="0"/>
+                <Module id="30" title="5" page_id="cab_1616466255_historyBMS2bat5" mod_id="0"/>
+                <Module id="31" title="6" page_id="cab_1616466255_historyBMS2bat6" mod_id="0"/>
+                <Module id="32" title="7" page_id="cab_1616466255_historyBMS2bat7" mod_id="0"/>
+                <Module id="33" title="8" page_id="cab_1616466255_historyBMS2bat8" mod_id="0"/>
+                <Module id="34" title="9" page_id="cab_1616466255_historyBMS2bat9" mod_id="0"/>
+                <Module id="35" title="10" page_id="cab_1616466255_historyBMS2bat10" mod_id="0"/>
+            </Module>
+            <Module id="36" title="电池组11~12" page_id="cab_1616466255_historyBMS2bat11" mod_id="0" url="subtitle">
+                <Module id="37" title="11" page_id="cab_1616466255_historyBMS2bat11" mod_id="0"/>
+                <Module id="38" title="12" page_id="cab_1616466255_historyBMS2bat12" mod_id="0"/>
+                <Module id="39" title="13" page_id="cab_1616466255_historyBMS2bat13" mod_id="0"/>
+                <Module id="40" title="14" page_id="cab_1616466255_historyBMS2bat14" mod_id="0"/>
+                <Module id="41" title="15" page_id="cab_1616466255_historyBMS2bat15" mod_id="0"/>
+                <Module id="42" title="16" page_id="cab_1616466255_historyBMS2bat16" mod_id="0"/>
+                <Module id="43" title="17" page_id="cab_1616466255_historyBMS2bat17" mod_id="0"/>
+                <Module id="44" title="18" page_id="cab_1616466255_historyBMS2bat18" mod_id="0"/>
+                <Module id="45" title="19" page_id="cab_1616466255_historyBMS2bat19" mod_id="0"/>
+                <Module id="46" title="20" page_id="cab_1616466255_historyBMS2bat20" mod_id="0"/>
+            </Module>
+        </Tab>
+        <Tab id="3" title="HVDC" cab_type="103" cab_id="1">
+            <Module id="47" title="HVDC" page_id="cab_1616466272_historyHVDC" mod_id="0"/>
+            <Module id="48" title="模块1" page_id="cab_1616466272_historyHVDC1" mod_id="0"/>
+            <Module id="49" title="模块2" page_id="cab_1616466272_historyHVDC2" mod_id="0"/>
+            <Module id="50" title="模块3" page_id="cab_1616466272_historyHVDC3" mod_id="0"/>
+            <Module id="51" title="模块4" page_id="cab_1616466272_historyHVDC4" mod_id="0"/>
+            <Module id="52" title="模块5" page_id="cab_1616466272_historyHVDC5" mod_id="0"/>
+            <Module id="53" title="模块6" page_id="cab_1616466272_historyHVDC6" mod_id="0"/>
+            <Module id="54" title="模块7" page_id="cab_1616466272_historyHVDC7" mod_id="0"/>
+            <Module id="55" title="模块8" page_id="cab_1616466272_historyHVDC8" mod_id="0"/>
+            <Module id="56" title="模块9" page_id="cab_1616466272_historyHVDC9" mod_id="0"/>
+            <Module id="57" title="模块10" page_id="cab_1616466272_historyHVDC10" mod_id="0"/>
+            <Module id="58" title="模块11" page_id="cab_1616466272_historyHVDC11" mod_id="0"/>
+            <Module id="59" title="模块12" page_id="cab_1616466272_historyHVDC12" mod_id="0"/>
+            <Module id="60" title="模块13" page_id="cab_1616466272_historyHVDC13" mod_id="0"/>
+            <Module id="61" title="模块14" page_id="cab_1616466272_historyHVDC14" mod_id="0"/>
+            <Module id="62" title="ATS" page_id="cab_1616466272_historyATS" mod_id="0"/>
+        </Tab>
+        <Tab id="4" title="空调柜01" cab_type="105" cab_id="1">
+            <Module id="63" title="空调柜01" page_id="cab_1616466238_historyAC1" mod_id="0"/>
+        </Tab>
+        <Tab id="5" title="空调柜02" cab_type="105" cab_id="2">
+            <Module id="64" title="空调柜02" page_id="cab_1616466238_historyAC2" mod_id="0"/>
+        </Tab>
+        <Tab id="6" title="空调柜03" cab_type="105" cab_id="3">
+            <Module id="65" title="空调柜03" page_id="cab_1616466238_historyAC3" mod_id="0"/>
+        </Tab>
+        <Tab id="7" title="空调柜04" cab_type="105" cab_id="4">
+            <Module id="66" title="空调柜04" page_id="cab_1616466238_historyAC4" mod_id="0"/>
+        </Tab>
+        <Tab id="8" title="空调柜05" cab_type="105" cab_id="5">
+            <Module id="67" title="空调柜05" page_id="cab_1616466238_historyAC5" mod_id="0"/>
+        </Tab>
+        <Tab id="9" title="空调柜06" cab_type="106" cab_id="6">
+            <Module id="68" title="空调柜06" page_id="cab_1616466238_historyAC6" mod_id="0"/>
+        </Tab>
+        <Tab id="10" title="配电柜" cab_type="102" cab_id="1">
+            <Module id="69" title="A路电量仪" page_id="cab_1616466272_historyAPdm" mod_id="0"/>
+            <Module id="70" title="B路电量仪" page_id="cab_1616466272_historyBPdm" mod_id="0"/>
+            <Module id="71" title="交流IT电量仪" page_id="cab_1616466272_historyACITPdm" mod_id="0"/>
+            <Module id="72" title="直流IT电量仪" page_id="cab_1616466272_historyDCITPdm" mod_id="0"/>
+            <Module id="73" title="交流配电L1" page_id="cab_1616466272_historyACPD1" mod_id="0"/>
+            <Module id="74" title="直流配电L1" page_id="cab_1616466272_historyACPD2" mod_id="0"/>
+        </Tab>
+        <Tab id="11" title="监控柜" cab_type="101" cab_id="1">
+            <Module id="75" title="逆变器" page_id="cab_1616466272_historyInverter" mod_id="0"/>
+        </Tab>
+        <Tab id="12" title="CWD" cab_type="100" cab_id="1"/>
+        <Tab id="13" title="机柜01" cab_type="106" cab_id="1">
+            <Module id="76" title="机柜01" page_id="cab_1616466220_historyCAB1" mod_id="0"/>
+            <Module id="77" title="温湿度-机柜01冷通道上" page_id="cab_1616466220_historyCAB1th1" mod_id="0"/>
+            <Module id="78" title="温湿度-机柜01冷通道下" page_id="cab_1616466220_historyCAB1th2" mod_id="0"/>
+            <Module id="79" title="温湿度-机柜01热通道中" page_id="cab_1616466220_historyCAB1th3" mod_id="0"/>
+        </Tab>
+        <Tab id="14" title="机柜02" cab_type="106" cab_id="2">
+            <Module id="80" title="机柜02" page_id="cab_1616466220_historyCAB2" mod_id="0"/>
+            <Module id="81" title="温湿度-机柜02冷通道上" page_id="cab_1616466220_historyCAB2th1" mod_id="0"/>
+            <Module id="82" title="温湿度-机柜02冷通道下" page_id="cab_1616466220_historyCAB2th2" mod_id="0"/>
+            <Module id="83" title="温湿度-机柜02热通道中" page_id="cab_1616466220_historyCAB2th3" mod_id="0"/>
+        </Tab>
+        <Tab id="15" title="机柜03" cab_type="106" cab_id="3">
+            <Module id="84" title="机柜03" page_id="cab_1616466220_historyCAB3" mod_id="0"/>
+            <Module id="85" title="温湿度-机柜03冷通道上" page_id="cab_1616466220_historyCAB3th1" mod_id="0"/>
+            <Module id="86" title="温湿度-机柜03冷通道下" page_id="cab_1616466220_historyCAB3th2" mod_id="0"/>
+            <Module id="87" title="温湿度-机柜03热通道中" page_id="cab_1616466220_historyCAB3th3" mod_id="0"/>
+        </Tab>
+        <Tab id="16" title="机柜04" cab_type="106" cab_id="4">
+            <Module id="88" title="机柜04" page_id="cab_1616466220_historyCAB4" mod_id="0"/>
+            <Module id="89" title="温湿度-机柜04冷通道上" page_id="cab_1616466220_historyCAB4th1" mod_id="0"/>
+            <Module id="90" title="温湿度-机柜04冷通道下" page_id="cab_1616466220_historyCAB4th2" mod_id="0"/>
+            <Module id="91" title="温湿度-机柜04热通道中" page_id="cab_1616466220_historyCAB4th3" mod_id="0"/>
+        </Tab>
+        <Tab id="17" title="机柜05" cab_type="106" cab_id="5">
+            <Module id="92" title="机柜05" page_id="cab_1616466220_historyCAB5" mod_id="0"/>
+            <Module id="93" title="温湿度-机柜05冷通道上" page_id="cab_1616466220_historyCAB5th1" mod_id="0"/>
+            <Module id="94" title="温湿度-机柜05冷通道下" page_id="cab_1616466220_historyCAB5th2" mod_id="0"/>
+            <Module id="95" title="温湿度-机柜05热通道中" page_id="cab_1616466220_historyCAB5th3" mod_id="0"/>
+        </Tab>
+        <Tab id="18" title="机柜06" cab_type="106" cab_id="6">
+            <Module id="96" title="机柜06" page_id="cab_1616466220_historyCAB6" mod_id="0"/>
+            <Module id="97" title="温湿度-机柜06冷通道上" page_id="cab_1616466220_historyCAB6th1" mod_id="0"/>
+            <Module id="98" title="温湿度-机柜06冷通道下" page_id="cab_1616466220_historyCAB6th2" mod_id="0"/>
+            <Module id="99" title="温湿度-机柜06热通道中" page_id="cab_1616466220_historyCAB6th3" mod_id="0"/>
+        </Tab>
+        <Tab id="19" title="机柜07" cab_type="106" cab_id="7">
+            <Module id="100" title="机柜07" page_id="cab_1616466220_historyCAB7" mod_id="0"/>
+            <Module id="101" title="温湿度-机柜07冷通道上" page_id="cab_1616466220_historyCAB7th1" mod_id="0"/>
+            <Module id="102" title="温湿度-机柜07冷通道下" page_id="cab_1616466220_historyCAB7th2" mod_id="0"/>
+            <Module id="103" title="温湿度-机柜07热通道中" page_id="cab_1616466220_historyCAB7th3" mod_id="0"/>
+        </Tab>
+        <Tab id="20" title="机柜08" cab_type="106" cab_id="8">
+            <Module id="104" title="机柜08" page_id="cab_1616466220_historyCAB8" mod_id="0"/>
+            <Module id="105" title="温湿度-机柜08冷通道上" page_id="cab_1616466220_historyCAB8th1" mod_id="0"/>
+            <Module id="106" title="温湿度-机柜08冷通道下" page_id="cab_1616466220_historyCAB8th2" mod_id="0"/>
+            <Module id="107" title="温湿度-机柜08热通道中" page_id="cab_1616466220_historyCAB8th3" mod_id="0"/>
+        </Tab>
+        <Tab id="21" title="机柜09" cab_type="106" cab_id="9">
+            <Module id="108" title="机柜09" page_id="cab_1616466220_historyCAB9" mod_id="0"/>
+            <Module id="109" title="温湿度-机柜09冷通道上" page_id="cab_1616466220_historyCAB9th1" mod_id="0"/>
+            <Module id="110" title="温湿度-机柜09冷通道下" page_id="cab_1616466220_historyCAB9th2" mod_id="0"/>
+            <Module id="111" title="温湿度-机柜09热通道中" page_id="cab_1616466220_historyCAB9th3" mod_id="0"/>
+        </Tab>
+        <Tab id="22" title="机柜10" cab_type="106" cab_id="10">
+            <Module id="112" title="机柜10" page_id="cab_1616466220_historyCAB10" mod_id="0"/>
+            <Module id="113" title="温湿度-机柜10冷通道上" page_id="cab_1616466220_historyCAB10th1" mod_id="0"/>
+            <Module id="114" title="温湿度-机柜10冷通道下" page_id="cab_1616466220_historyCAB10th2" mod_id="0"/>
+            <Module id="115" title="温湿度-机柜10热通道中" page_id="cab_1616466220_historyCAB10th3" mod_id="0"/>
+        </Tab>
+        <Tab id="23" title="机柜11" cab_type="106" cab_id="11">
+            <Module id="116" title="机柜11" page_id="cab_1616466220_historyCAB11" mod_id="0"/>
+            <Module id="117" title="温湿度-机柜11冷通道上" page_id="cab_1616466220_historyCAB11th1" mod_id="0"/>
+            <Module id="118" title="温湿度-机柜11冷通道下" page_id="cab_1616466220_historyCAB11th2" mod_id="0"/>
+            <Module id="119" title="温湿度-机柜11热通道中" page_id="cab_1616466220_historyCAB11th3" mod_id="0"/>
+        </Tab>
+        <Tab id="24" title="机柜12" cab_type="106" cab_id="12">
+            <Module id="120" title="机柜12" page_id="cab_1616466220_historyCAB12" mod_id="0"/>
+            <Module id="121" title="温湿度-机柜12冷通道上" page_id="cab_1616466220_historyCAB12th1" mod_id="0"/>
+            <Module id="122" title="温湿度-机柜12冷通道下" page_id="cab_1616466220_historyCAB12th2" mod_id="0"/>
+            <Module id="123" title="温湿度-机柜12热通道中" page_id="cab_1616466220_historyCAB12th3" mod_id="0"/>
+        </Tab>
+        <Tab id="25" title="机柜13" cab_type="106" cab_id="13">
+            <Module id="124" title="机柜13" page_id="cab_1616466220_historyCAB13" mod_id="0"/>
+            <Module id="125" title="温湿度-机柜13冷通道上" page_id="cab_1616466220_historyCAB13th1" mod_id="0"/>
+            <Module id="126" title="温湿度-机柜13冷通道下" page_id="cab_1616466220_historyCAB13th2" mod_id="0"/>
+            <Module id="127" title="温湿度-机柜13热通道中" page_id="cab_1616466220_historyCAB13th3" mod_id="0"/>
+        </Tab>
+        <Tab id="26" title="机柜14" cab_type="106" cab_id="14">
+            <Module id="128" title="机柜14" page_id="cab_1616466220_historyCAB14" mod_id="0"/>
+            <Module id="129" title="温湿度-机柜14冷通道上" page_id="cab_1616466220_historyCAB14th1" mod_id="0"/>
+            <Module id="130" title="温湿度-机柜14冷通道下" page_id="cab_1616466220_historyCAB14th2" mod_id="0"/>
+            <Module id="131" title="温湿度-机柜14热通道中" page_id="cab_1616466220_historyCAB14th3" mod_id="0"/>
+        </Tab>
+        <Tab id="27" title="机柜15" cab_type="106" cab_id="15">
+            <Module id="132" title="机柜15" page_id="cab_1616466220_historyCAB15" mod_id="0"/>
+            <Module id="133" title="温湿度-机柜15冷通道上" page_id="cab_1616466220_historyCAB15th1" mod_id="0"/>
+            <Module id="134" title="温湿度-机柜15冷通道下" page_id="cab_1616466220_historyCAB15th2" mod_id="0"/>
+            <Module id="135" title="温湿度-机柜15热通道中" page_id="cab_1616466220_historyCAB15th3" mod_id="0"/>
+        </Tab>
+        <Tab id="28" title="机柜16" cab_type="106" cab_id="16">
+            <Module id="136" title="机柜16" page_id="cab_1616466220_historyCAB16" mod_id="0"/>
+            <Module id="137" title="温湿度-机柜16冷通道上" page_id="cab_1616466220_historyCAB16th1" mod_id="0"/>
+            <Module id="138" title="温湿度-机柜16冷通道下" page_id="cab_1616466220_historyCAB16th2" mod_id="0"/>
+            <Module id="139" title="温湿度-机柜16热通道中" page_id="cab_1616466220_historyCAB16th3" mod_id="0"/>
+        </Tab>
+        <Tab id="29" title="机柜17" cab_type="106" cab_id="17">
+            <Module id="140" title="机柜17" page_id="cab_1616466220_historyCAB17" mod_id="0"/>
+            <Module id="141" title="温湿度-机柜17冷通道上" page_id="cab_1616466220_historyCAB17th1" mod_id="0"/>
+            <Module id="142" title="温湿度-机柜17冷通道下" page_id="cab_1616466220_historyCAB17th2" mod_id="0"/>
+            <Module id="143" title="温湿度-机柜17热通道中" page_id="cab_1616466220_historyCAB17th3" mod_id="0"/>
+        </Tab>
+        <Tab id="30" title="机柜18" cab_type="106" cab_id="18">
+            <Module id="144" title="机柜18" page_id="cab_1616466220_historyCAB18" mod_id="0"/>
+            <Module id="145" title="温湿度-机柜18冷通道上" page_id="cab_1616466220_historyCAB18th1" mod_id="0"/>
+            <Module id="146" title="温湿度-机柜18冷通道下" page_id="cab_1616466220_historyCAB18th2" mod_id="0"/>
+            <Module id="147" title="温湿度-机柜18热通道中" page_id="cab_1616466220_historyCAB18th3" mod_id="0"/>
+        </Tab>
+    </Page>
+</PageTree>

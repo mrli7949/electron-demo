@@ -1,0 +1,1711 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ffffffff",
+            "BackgroundImage": "",
+            "DataTimeout": "10000",
+            "Size": "1120,640",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffe50000",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "102",
+            "Content": "iDM",
+            "CtrlName": "cab-102-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_1-102-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "61,69",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff3fbe00",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "103",
+            "Content": "HVDC",
+            "CtrlName": "cab-103-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_2-103-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "124,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffdede00",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "104",
+            "Content": "3kJA",
+            "CtrlName": "cab-104-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_3-104-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "187,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "up01",
+            "CtrlName": "cab-106-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_4-106-1-1"
+                },
+                {
+                    "nodeId": "Cab_4-106-1-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "250,69",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab1R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff00aaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "105",
+            "Content": "vkC01",
+            "CtrlName": "cab-105-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_6-105-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "312,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "2",
+            "CabType": "106",
+            "Content": "1I02",
+            "CtrlName": "cab-106-2",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_7-106-2-1"
+                },
+                {
+                    "nodeId": "Cab_7-106-2-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "374,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab2R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "3",
+            "CabType": "106",
+            "Content": "FV03",
+            "CtrlName": "cab-106-3",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_8-106-3-1"
+                },
+                {
+                    "nodeId": "Cab_8-106-3-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "436,69",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1616466173_Cab3R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "4",
+            "CabType": "106",
+            "Content": "Hz04",
+            "CtrlName": "cab-106-4",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_9-106-4-1"
+                },
+                {
+                    "nodeId": "Cab_9-106-4-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "498,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab4R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff00aaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "2",
+            "CabType": "105",
+            "Content": "lJm02",
+            "CtrlName": "cab-105-2",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_10-105-2-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "560,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "5",
+            "CabType": "106",
+            "Content": "W505",
+            "CtrlName": "cab-106-5",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_11-106-5-1"
+                },
+                {
+                    "nodeId": "Cab_11-106-5-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "622,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab5R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "6",
+            "CabType": "106",
+            "Content": "Fu06",
+            "CtrlName": "cab-106-6",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_12-106-6-1"
+                },
+                {
+                    "nodeId": "Cab_12-106-6-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "684,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab6R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "7",
+            "CabType": "106",
+            "Content": "Nr07",
+            "CtrlName": "cab-106-7",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_13-106-7-1"
+                },
+                {
+                    "nodeId": "Cab_13-106-7-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "746,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab7R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff00aaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "3",
+            "CabType": "105",
+            "Content": "nIg03",
+            "CtrlName": "cab-105-3",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_14-105-3-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "808,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "8",
+            "CabType": "106",
+            "Content": "iZ08",
+            "CtrlName": "cab-106-8",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_15-106-8-1"
+                },
+                {
+                    "nodeId": "Cab_15-106-8-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "870,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab8R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "9",
+            "CabType": "106",
+            "Content": "hP09",
+            "CtrlName": "cab-106-9",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_16-106-9-1"
+                },
+                {
+                    "nodeId": "Cab_16-106-9-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "932,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab9R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffaaaaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "101",
+            "Content": "GNu",
+            "CtrlName": "cab-101-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_17-101-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "62,222",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff0055ff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "113",
+            "Content": "CWD",
+            "CtrlName": "cab-113-1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_18-113-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "125,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffdede00",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "2",
+            "CabType": "104",
+            "Content": "gs4B",
+            "CtrlName": "cab-104-2",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_19-104-2-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "189,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "18",
+            "CabType": "106",
+            "Content": "gh18",
+            "CtrlName": "cab-106-18",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_20-106-18-1"
+                },
+                {
+                    "nodeId": "Cab_20-106-18-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "251,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab18R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "17",
+            "CabType": "106",
+            "Content": "3817",
+            "CtrlName": "cab-106-17",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_22-106-17-1"
+                },
+                {
+                    "nodeId": "Cab_22-106-17-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "375,219",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab17R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "16",
+            "CabType": "106",
+            "Content": "Bl16",
+            "CtrlName": "cab-106-16",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_23-106-16-1"
+                },
+                {
+                    "nodeId": "Cab_23-106-16-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "437,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab16R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "15",
+            "CabType": "106",
+            "Content": "pd15",
+            "CtrlName": "cab-106-15",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_24-106-15-1"
+                },
+                {
+                    "nodeId": "Cab_24-106-15-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "499,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab15R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff00aaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "5",
+            "CabType": "105",
+            "Content": "Xsx05",
+            "CtrlName": "cab-105-5",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_25-105-5-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "561,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "14",
+            "CabType": "106",
+            "Content": "g414",
+            "CtrlName": "cab-106-14",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_26-106-14-1"
+                },
+                {
+                    "nodeId": "Cab_26-106-14-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "623,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab14R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "13",
+            "CabType": "106",
+            "Content": "3e13",
+            "CtrlName": "cab-106-13",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_27-106-13-1"
+                },
+                {
+                    "nodeId": "Cab_27-106-13-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "685,221",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab13R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "12",
+            "CabType": "106",
+            "Content": "dm12",
+            "CtrlName": "cab-106-12",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_28-106-12-1"
+                },
+                {
+                    "nodeId": "Cab_28-106-12-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "747,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab12R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff00aaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "4",
+            "CabType": "105",
+            "Content": "aAw04",
+            "CtrlName": "cab-105-4",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_29-105-4-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "809,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "11",
+            "CabType": "106",
+            "Content": "0Y11",
+            "CtrlName": "cab-106-11",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_30-106-11-1"
+                },
+                {
+                    "nodeId": "Cab_30-106-11-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "871,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab11R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff44cece",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "10",
+            "CabType": "106",
+            "Content": "6410",
+            "CtrlName": "cab-106-10",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_31-106-10-1"
+                },
+                {
+                    "nodeId": "Cab_31-106-10-2"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "933,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+                "type": "1",
+                "url": "data_1616466173_Cab10R18.json"
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Card",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffba3e00",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "2",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "mPUE",
+            "CtrlName": "Button_5",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Card_5-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "20",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "10,412",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "360,220",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Card",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff6d3300",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "3",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "ITB0",
+            "CtrlName": "Button_5_1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Card_33-1"
+                },
+                {
+                    "nodeId": "Card_33-2"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "20",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "382,412",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "360,220",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Card",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff007fbf",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "4",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "gvIfrI",
+            "CtrlName": "Button_5_1_1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Card_34-1"
+                },
+                {
+                    "nodeId": "Card_34-2"
+                },
+                {
+                    "nodeId": "Card_34-3"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "20",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "755,412",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "360,220",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Card1",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffabda75",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "0",
+            "ButtonClass": "5",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "V2Shs(kW)",
+            "CtrlName": "Button_21",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Card1_21-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "973,0",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "147,21",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Card1",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#fffbb138",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "0",
+            "ButtonClass": "5",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "vvmXI(kW)",
+            "CtrlName": "Button_35",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Card1_35-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "18",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "973,22",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "147,22",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffdede00",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "3",
+            "CabType": "104",
+            "Content": "3JeC",
+            "CtrlName": "cab-104-3",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_37-104-3-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "313,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffa2a2a2",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "1",
+            "CabType": "100",
+            "Content": "He1",
+            "CtrlName": "cab-100-1_1",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_36-100-1-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "0,70",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffa2a2a2",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "2",
+            "CabType": "100",
+            "Content": "QS2",
+            "CtrlName": "cab-100-2",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_38-100-2-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "0,222",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffa2a2a2",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "3",
+            "CabType": "100",
+            "Content": "Lp3",
+            "CtrlName": "cab-100-3",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_39-100-3-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "995,68",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff00aaff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "6",
+            "CabType": "105",
+            "Content": "rAz06",
+            "CtrlName": "cab-105-6",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_40-105-6-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "996,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffa2a2a2",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "true",
+            "ButtonDirecNodeId": "",
+            "CabId": "4",
+            "CabType": "100",
+            "Content": "NC4",
+            "CtrlName": "cab-100-4",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_41-100-4-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "1058,67",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": true
+        }
+    },
+    {
+        "component": "Cab",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffa2a2a2",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "1",
+            "ButtonCommandDisabled": "false",
+            "ButtonDirecNodeId": "",
+            "CabId": "5",
+            "CabType": "100",
+            "Content": "qj5",
+            "CtrlName": "cab-100-5",
+            "DataTimeout": "10000",
+            "FieldValue": [
+                {
+                    "nodeId": "Cab_42-100-5-1"
+                }
+            ],
+            "FontColor": "#ff000000",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "1058,220",
+            "PassThroughValue": "0",
+            "Radius": "5",
+            "Size": "60,130",
+            "Tooltip": "",
+            "Url": {
+            },
+            "confirmMsg": "",
+            "logMessage": "",
+            "reConfirm": false
+        }
+    }
+]

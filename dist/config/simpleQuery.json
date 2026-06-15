@@ -1,0 +1,749 @@
+{
+    "data2_1587543746_LocalAboutInfo": {
+        "desc": "升级管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1587543746_LocalAboutInfo"
+            }
+        }
+    },
+    "data2_1587543746_LocalPasswordSet": {
+        "desc": "密码设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1587543746_LocalPasswordSet"
+            }
+        }
+    },
+    "data2_1587543746_LocalRecordManage": {
+        "desc": "记录管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1587543746_LocalRecordManage"
+            }
+        }
+    },
+    "data2_1587543746_LocalRightManage": {
+        "desc": "权限管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1587543746_LocalRightManage"
+            }
+        }
+    },
+    "data2_1587543746_LocalScreenManage": {
+        "desc": "屏幕管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1587543746_LocalScreenManage"
+            }
+        }
+    },
+    "data2_1709105337_TCPModbusSet": {
+        "desc": "通信设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_TCPModbusSet"
+            }
+        }
+    },
+    "data2_1709105337_aboutPage": {
+        "desc": "关于",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_aboutPage"
+            }
+        }
+    },
+    "data2_1709105337_engineeringManageS": {
+        "desc": "系统管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_engineeringManageS"
+            }
+        }
+    },
+    "data2_1709105337_healthMonitS": {
+        "desc": "健康度",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                    "menuEnable": {
+                        "controlSourceId": "Label_3-1",
+                        "displayValue": "0",
+                        "pageId": "data_1709105337_hiddenControlPage"
+                    }
+                },
+                "name": "data_1709105337_healthMonitS"
+            }
+        }
+    },
+    "data2_1709105337_his_ctrl": {
+        "desc": "内部日志",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_his_ctrl"
+            }
+        }
+    },
+    "data2_1709105337_his_inalarm": {
+        "desc": "内部告警",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_his_inalarm"
+            }
+        }
+    },
+    "data2_1709105337_his_sysctrl": {
+        "desc": "系统日志",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_his_sysctrl"
+            }
+        }
+    },
+    "data2_1709105337_homeS": {
+        "desc": "首页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_homeS"
+            }
+        }
+    },
+    "data2_1709105337_onceSide": {
+        "desc": "一次侧",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_onceSide"
+            }
+        }
+    },
+    "data2_1709105337_pressurewaveS": {
+        "desc": "历史数据",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_pressurewaveS"
+            }
+        }
+    },
+    "data2_1709105337_rangeParam": {
+        "desc": "出厂设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_rangeParam"
+            }
+        }
+    },
+    "data2_1709105337_realtimeMonitorS": {
+        "desc": "系统信息",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_realtimeMonitorS"
+            }
+        }
+    },
+    "data2_1709105337_recordPageS": {
+        "desc": "历史告警",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_recordPageS"
+            }
+        }
+    },
+    "data2_1709105337_runParamS": {
+        "desc": "参数调试",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_runParamS"
+            }
+        }
+    },
+    "data2_1709105337_secondarySide1S": {
+        "desc": "二次侧",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_secondarySide1S"
+            }
+        }
+    },
+    "data3_1587543746_LocalNetworkSet": {
+        "desc": "触摸屏网络设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1587543746_LocalNetworkSet"
+            }
+        }
+    },
+    "data3_1709105337_TCPModbusSet": {
+        "desc": "北向网络设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_TCPModbusSet"
+            }
+        }
+    },
+    "data3_1709105337_aboutPage": {
+        "desc": "公司信息",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                    "menuEnable": {
+                        "controlSourceId": "Label_5-1",
+                        "displayValue": 1,
+                        "pageId": "data_1709105337_hiddenControlPage"
+                    }
+                },
+                "name": "data_1709105337_aboutPage"
+            }
+        }
+    },
+    "data3_1709105337_alarmSet1": {
+        "desc": "告警设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet1"
+            }
+        }
+    },
+    "data3_1709105337_engineeringManageS": {
+        "desc": "系统设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_engineeringManageS"
+            }
+        }
+    },
+    "data3_1709105337_flowwaveS": {
+        "desc": "二次侧流量曲线",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_flowwaveS"
+            }
+        }
+    },
+    "data3_1709105337_groupConset1": {
+        "desc": "联机设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_groupConset1"
+            }
+        }
+    },
+    "data3_1709105337_groupConsta": {
+        "desc": "联机信息",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_groupConsta"
+            }
+        }
+    },
+    "data3_1709105337_his_alarm": {
+        "desc": "历史告警",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_his_alarm"
+            }
+        }
+    },
+    "data3_1709105337_intelligentManageS": {
+        "desc": "智能管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_intelligentManageS"
+            }
+        }
+    },
+    "data3_1709105337_liquidSet": {
+        "desc": "活液设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_liquidSet"
+            }
+        }
+    },
+    "data3_1709105337_manualSet1S": {
+        "desc": "手动设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_manualSet1S"
+            }
+        }
+    },
+    "data3_1709105337_paramControl1": {
+        "desc": "PID参数",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_paramControl1"
+            }
+        }
+    },
+    "data3_1709105337_paramControl2": {
+        "desc": "控制器网络设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_paramControl2"
+            }
+        }
+    },
+    "data3_1709105337_paramControl3": {
+        "desc": "限定参数",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_paramControl3"
+            }
+        }
+    },
+    "data3_1709105337_paramControl4": {
+        "desc": "选配配置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_paramControl4"
+            }
+        }
+    },
+    "data3_1709105337_pressurewaveS": {
+        "desc": "二次侧压力曲线",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_pressurewaveS"
+            }
+        }
+    },
+    "data3_1709105337_productInfo": {
+        "desc": "产品信息",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_productInfo"
+            }
+        }
+    },
+    "data3_1709105337_rangeParam": {
+        "desc": "量程参数",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_rangeParam"
+            }
+        }
+    },
+    "data3_1709105337_realtimeMonitorS": {
+        "desc": "整机信息",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_realtimeMonitorS"
+            }
+        }
+    },
+    "data3_1709105337_recordPageS": {
+        "desc": "当前告警",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_recordPageS"
+            }
+        }
+    },
+    "data3_1709105337_runParamS": {
+        "desc": "运行参数",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_runParamS"
+            }
+        }
+    },
+    "data3_1709105337_secondarySide1S": {
+        "desc": "二次侧-第一页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_secondarySide1S"
+            }
+        }
+    },
+    "data3_1709105337_secondarySide2S": {
+        "desc": "二次侧-第二页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_secondarySide2S"
+            }
+        }
+    },
+    "data3_1709105337_secondarySide3S": {
+        "desc": "二次侧-第三页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_secondarySide3S"
+            }
+        }
+    },
+    "data3_1709105337_systemConf": {
+        "desc": "系统配置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_systemConf"
+            }
+        }
+    },
+    "data3_1709105337_systemSet2S": {
+        "desc": "补液设置",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_systemSet2S"
+            }
+        }
+    },
+    "data3_1709105337_thwaveS": {
+        "desc": "温度曲线",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_thwaveS"
+            }
+        }
+    },
+    "data3_1709105337_version": {
+        "desc": "版本",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_version"
+            }
+        }
+    },
+    "data4_1709105337_alarmSet1": {
+        "desc": "告警设置-第一页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet1"
+            }
+        }
+    },
+    "data4_1709105337_alarmSet2": {
+        "desc": "告警设置-第二页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet2"
+            }
+        }
+    },
+    "data4_1709105337_alarmSet3": {
+        "desc": "告警设置-第三页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet3"
+            }
+        }
+    },
+    "data4_1709105337_alarmSet4": {
+        "desc": "告警设置-第四页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet4"
+            }
+        }
+    },
+    "data4_1709105337_alarmSet5": {
+        "desc": "告警设置-第五页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet5"
+            }
+        }
+    },
+    "data4_1709105337_alarmSet6": {
+        "desc": "告警设置-第六页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_alarmSet6"
+            }
+        }
+    },
+    "data4_1709105337_groupConset1": {
+        "desc": "联机设置-第一页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_groupConset1"
+            }
+        }
+    },
+    "data4_1709105337_groupConset2": {
+        "desc": "联机设置-第二页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_groupConset2"
+            }
+        }
+    },
+    "data4_1709105337_rangeParam": {
+        "desc": "量程参数-第一页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_rangeParam"
+            }
+        }
+    },
+    "data4_1709105337_rangeParam2": {
+        "desc": "量程参数-第二页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_rangeParam2"
+            }
+        }
+    },
+    "data4_1709105337_rangeParam3": {
+        "desc": "量程参数-第三页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_rangeParam3"
+            }
+        }
+    },
+    "data4_1709105337_runParam2S": {
+        "desc": "运行参数-第二页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_runParam2S"
+            }
+        }
+    },
+    "data4_1709105337_runParamS": {
+        "desc": "运行参数-第一页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_runParamS"
+            }
+        }
+    },
+    "data_1709105337_aboutPage": {
+        "desc": "更多功能",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_aboutPage"
+            }
+        }
+    },
+    "data_1709105337_engineeringManageS": {
+        "desc": "工程管理",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_engineeringManageS"
+            }
+        }
+    },
+    "data_1709105337_homeS": {
+        "desc": "系统首页",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_homeS"
+            }
+        }
+    },
+    "data_1709105337_realtimeMonitorS": {
+        "desc": "实时监控",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_realtimeMonitorS"
+            }
+        }
+    },
+    "data_1709105337_recordPageS": {
+        "desc": "历史记录",
+        "paths": {
+            "name": "CofPageRender",
+            "params": {
+                "ExtendJson": {
+                },
+                "name": "data_1709105337_recordPageS"
+            }
+        }
+    }
+}

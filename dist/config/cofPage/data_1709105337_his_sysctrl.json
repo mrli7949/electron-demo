@@ -1,0 +1,442 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1136,620",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "EventList",
+        "propValue": {
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffffffff",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "1",
+            "ClassCustomName": "",
+            "ColumnWidth": "100,100,100,100,100",
+            "ColumnsNumber": "5",
+            "CtrlName": "RealTable_1",
+            "DataSource": "get_data",
+            "DataTimeout": "3000",
+            "ExtendJson": {
+                "Port": [
+                    {
+                        "function": "sys_ops_get",
+                        "page": {
+                            "enable": true,
+                            "params": {
+                                "pageNo": {
+                                    "key": "q_offset"
+                                },
+                                "prePageNum": {
+                                    "key": "q_rows"
+                                }
+                            },
+                            "prePageNum": 8
+                        },
+                        "timer": {
+                            "dateLimit": "30",
+                            "dateRange": "30",
+                            "datetype": "date",
+                            "enable": true,
+                            "params": {
+                                "endTime": {
+                                    "key": "date_to"
+                                },
+                                "startTime": {
+                                    "key": "date_from"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "button_text": "1l",
+                        "enable": false,
+                        "function": "sys_ops_export2udisk",
+                        "timer": {
+                            "params": {
+                                "endTime": {
+                                    "key": "date_to"
+                                },
+                                "startTime": {
+                                    "key": "date_from"
+                                }
+                            }
+                        },
+                        "userPriv": 2
+                    },
+                    {
+                        "button_text": "3n",
+                        "enable": false,
+                        "function": "sys_ops_del",
+                        "timer": {
+                            "params": {
+                                "endTime": {
+                                    "key": "date_to"
+                                },
+                                "startTime": {
+                                    "key": "date_from"
+                                }
+                            }
+                        },
+                        "userPriv": 2
+                    }
+                ],
+                "TableCols": [
+                    {
+                        "api_key": "record_id",
+                        "col": "1",
+                        "colNum": "1",
+                        "isIndex": true,
+                        "key": "order",
+                        "title": "o2"
+                    },
+                    {
+                        "api_key": "ops_time",
+                        "col": "2",
+                        "colNum": "4",
+                        "key": "is_en",
+                        "title": "vx"
+                    },
+                    {
+                        "api_key": "ops_objects",
+                        "col": "3",
+                        "colNum": "4",
+                        "key": "time",
+                        "title": "bq"
+                    },
+                    {
+                        "api_key": "ops_desc",
+                        "col": "4",
+                        "colNum": "12",
+                        "key": "time",
+                        "title": "wu"
+                    }
+                ],
+                "confirmMsg": "svXk8v",
+                "reConfirm": true
+            },
+            "FrozenLine": "0",
+            "GridColor": "#ff000000",
+            "GroupId": "",
+            "LineNumber": "3",
+            "Location": "0,0",
+            "MultiHeader": "false",
+            "PaginationNum": "20",
+            "QuerySource": "",
+            "RowHiegth": "30,30,30",
+            "RowNoDataHide": "false",
+            "ShowGrid": "true",
+            "Size": "1136,569",
+            "TableValue": [
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ffffffff",
+                        "fontBold": "false",
+                        "fontColor": "#ff000000",
+                        "fontSize": "14",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                }
+            ],
+            "dataType": "1",
+            "styleType": "color"
+        }
+    }
+]

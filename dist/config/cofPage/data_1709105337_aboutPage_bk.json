@@ -1,0 +1,244 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,730",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "CtrlName": "Image_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "LocalPasswordSet.png",
+            "IsLocked": "false",
+            "Location": "524,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1587543746_LocalPasswordSet.json"
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "3",
+            "CtrlName": "Image_2",
+            "DataTimeout": "3000",
+            "ImgSrc": "LocalRecordManage.png",
+            "IsLocked": "false",
+            "Location": "741,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1587543746_LocalRecordManage.json"
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_1_1",
+            "DataTimeout": "3000",
+            "HideDataSource": {
+                "nodeId": "Image_7-3"
+            },
+            "HideJudgeValue": [
+                "0"
+            ],
+            "ImgSrc": "aboutPage.png",
+            "IsLocked": "false",
+            "Location": "90,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_companyInfo.json"
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "kK",
+            "CtrlName": "label_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "63,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "2",
+            "Content": "uVDc",
+            "CtrlName": "label_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "497,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "3",
+            "Content": "hXMo",
+            "CtrlName": "label_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "714,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "2",
+            "CtrlName": "Image_2_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "LocalScreenManage.png",
+            "IsLocked": "false",
+            "Location": "307,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1587543746_LocalScreenManage.json"
+            }
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "4",
+            "CtrlName": "Image_2_2",
+            "DataTimeout": "3000",
+            "ImgSrc": "LocalRightManage.png",
+            "IsLocked": "false",
+            "Location": "960,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1587543746_LocalRightManage.json"
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "2",
+            "Content": "80V3",
+            "CtrlName": "label_1_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "280,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "4",
+            "Content": "HRme",
+            "CtrlName": "label_1_1_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "933,236",
+            "Size": "180,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_1_1_1",
+            "DataTimeout": "3000",
+            "HideDataSource": {
+                "nodeId": "Image_6-3"
+            },
+            "HideJudgeValue": [
+                "1",
+                "-"
+            ],
+            "ImgSrc": "aboutPage.png",
+            "IsLocked": "false",
+            "Location": "90,82",
+            "Size": "126,126",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_productInfoNologo.json"
+            }
+        }
+    }
+]

@@ -1,0 +1,1443 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ff0a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff3399ff",
+            "BorderWidth": "2",
+            "CtrlName": "Rectangle_1",
+            "FillColor": "#ff182942",
+            "IsLocked": "false",
+            "Location": "95,46",
+            "Radius": "5,5,5,5",
+            "Size": "969,554"
+        }
+    },
+    {
+        "component": "RealTable",
+        "propValue": {
+            "AuthLevel": "0",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "ClassCustomName": "",
+            "ColumnWidth": "220,220,220,220,220",
+            "ColumnsNumber": "5",
+            "CtrlName": "RealTable_1",
+            "DataSource": "get_data",
+            "DataTimeout": "3000",
+            "FrozenLine": "0",
+            "GridColor": "#00144e80",
+            "GroupId": "",
+            "LineNumber": "8",
+            "Location": "134,168",
+            "MultiHeader": "false",
+            "PaginationNum": "20",
+            "QuerySource": "",
+            "RowHiegth": "50,50,50,50,50,50,50,50",
+            "RowNoDataHide": "false",
+            "ShowGrid": "true",
+            "Size": "890,425",
+            "TableValue": [
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-0-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "T"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "Z"
+                            }
+                        },
+                        "name": "V"
+                    },
+                    "nodeId": "RealTable_1-0-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "kR"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "2"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "o"
+                            }
+                        },
+                        "name": "k"
+                    },
+                    "nodeId": "RealTable_1-0-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "V"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "K"
+                            }
+                        },
+                        "name": "J"
+                    },
+                    "nodeId": "RealTable_1-0-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-1-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "W"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "c"
+                            }
+                        },
+                        "name": "V"
+                    },
+                    "nodeId": "RealTable_1-1-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "j6"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "fi"
+                            }
+                        },
+                        "name": "Uh"
+                    },
+                    "nodeId": "RealTable_1-1-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "Z"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "b"
+                            }
+                        },
+                        "name": "U"
+                    },
+                    "nodeId": "RealTable_1-1-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "V"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "O"
+                            }
+                        },
+                        "name": "E"
+                    },
+                    "nodeId": "RealTable_1-1-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-2-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "i"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "1"
+                            }
+                        },
+                        "name": "g"
+                    },
+                    "nodeId": "RealTable_1-2-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "hc"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "pQ"
+                            }
+                        },
+                        "name": "k1"
+                    },
+                    "nodeId": "RealTable_1-2-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "I"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "6"
+                            }
+                        },
+                        "name": "G"
+                    },
+                    "nodeId": "RealTable_1-2-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "O"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "5"
+                            }
+                        },
+                        "name": "z"
+                    },
+                    "nodeId": "RealTable_1-2-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-3-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "q"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "v"
+                            }
+                        },
+                        "name": "z"
+                    },
+                    "nodeId": "RealTable_1-3-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "2G"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "0I"
+                            }
+                        },
+                        "name": "Ko"
+                    },
+                    "nodeId": "RealTable_1-3-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "F"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "b"
+                            }
+                        },
+                        "name": "I"
+                    },
+                    "nodeId": "RealTable_1-3-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "x"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "f"
+                            }
+                        },
+                        "name": "N"
+                    },
+                    "nodeId": "RealTable_1-3-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-4-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "4",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "F"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "k"
+                            }
+                        },
+                        "name": "n"
+                    },
+                    "nodeId": "RealTable_1-4-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "4",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "kU"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "Az"
+                            }
+                        },
+                        "name": "zt"
+                    },
+                    "nodeId": "RealTable_1-4-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "4",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "z"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "h"
+                            }
+                        },
+                        "name": "V"
+                    },
+                    "nodeId": "RealTable_1-4-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "4",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "i"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "F"
+                            }
+                        },
+                        "name": "7"
+                    },
+                    "nodeId": "RealTable_1-4-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "4",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-5-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "5",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "j"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "o"
+                            }
+                        },
+                        "name": "p"
+                    },
+                    "nodeId": "RealTable_1-5-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "5",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "K6"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "89"
+                            }
+                        },
+                        "name": "ZB"
+                    },
+                    "nodeId": "RealTable_1-5-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "5",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "K"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "V"
+                            }
+                        },
+                        "name": "X"
+                    },
+                    "nodeId": "RealTable_1-5-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "5",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "v"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "A"
+                            }
+                        },
+                        "name": "2"
+                    },
+                    "nodeId": "RealTable_1-5-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "5",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-6-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "6",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "t"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "d"
+                            }
+                        },
+                        "name": "j"
+                    },
+                    "nodeId": "RealTable_1-6-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "6",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "K0"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "hI"
+                            }
+                        },
+                        "name": "b4"
+                    },
+                    "nodeId": "RealTable_1-6-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "6",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "A"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "e"
+                            }
+                        },
+                        "name": "L"
+                    },
+                    "nodeId": "RealTable_1-6-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "6",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "v"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "e"
+                            }
+                        },
+                        "name": "t"
+                    },
+                    "nodeId": "RealTable_1-6-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "6",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "0"
+                    },
+                    "nodeId": "RealTable_1-7-0",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "7",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "B"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "8"
+                            }
+                        },
+                        "name": "O"
+                    },
+                    "nodeId": "RealTable_1-7-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "7",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ff55ff00",
+                                "Content": "5w"
+                            },
+                            "1": {
+                                "Color": "#ffff0000",
+                                "Content": "a9"
+                            }
+                        },
+                        "name": "94"
+                    },
+                    "nodeId": "RealTable_1-7-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "7",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "2"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "v"
+                            }
+                        },
+                        "name": "P"
+                    },
+                    "nodeId": "RealTable_1-7-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "7",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "4",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            },
+                            "0": {
+                                "Color": "#ffffffff",
+                                "Content": "F"
+                            },
+                            "1": {
+                                "Color": "#ff55ff00",
+                                "Content": "I"
+                            }
+                        },
+                        "name": "s"
+                    },
+                    "nodeId": "RealTable_1-7-4",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "18",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "7",
+                    "rowspan": "1"
+                }
+            ],
+            "dataType": "1",
+            "styleType": "color"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "CtrlName": "Image_1",
+            "DataTimeout": "3000",
+            "ImgSrc": "ico_close.png",
+            "IsLocked": "false",
+            "Location": "1004,71",
+            "Size": "20,20",
+            "Tooltip": "",
+            "Url": {
+                "type": "0",
+                "url": "data_1709105337_groupConset.json"
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "hfFs",
+            "CtrlName": "Label_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "134,66",
+            "Size": "139,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#183399ff",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_1_1",
+            "FillColor": "#183399ff",
+            "IsLocked": "false",
+            "Location": "134,120",
+            "Radius": "0,0,0,0",
+            "Size": "890,48"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "1",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "CtrlName": "Rectangle_2",
+            "FillColor": "#ff3399ff",
+            "IsLocked": "false",
+            "Location": "134,166",
+            "Radius": "0,0,0,0",
+            "Size": "890,2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "UZ",
+            "CtrlName": "Label_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "134,129",
+            "Size": "178,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "Q11e",
+            "CtrlName": "Label_1_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "312,129",
+            "Size": "178,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "jDEv",
+            "CtrlName": "Label_1_1_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "490,129",
+            "Size": "178,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "azku",
+            "CtrlName": "Label_1_1_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "668,129",
+            "Size": "178,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "1",
+            "Content": "klNt",
+            "CtrlName": "Label_1_1_4",
+            "DataSourceJump": "false",
+            "DataTimeout": "3000",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "21",
+            "HorizontalAlign": "2",
+            "IsBold": "true",
+            "IsLocked": "false",
+            "Location": "846,129",
+            "Size": "178,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    }
+]

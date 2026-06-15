@@ -1,0 +1,308 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#000a2a60",
+            "BackgroundImage": "",
+            "DataTimeout": "3000",
+            "Size": "1170,675",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "RealTable",
+        "propValue": {
+            "AuthLevel": "0",
+            "BackgroundColor": "#00000000",
+            "BorderColor": "#ff144e80",
+            "BorderWidth": "1",
+            "ClassCustomName": "",
+            "ColumnWidth": "291,291,291,291",
+            "ColumnsNumber": "4",
+            "CtrlName": "RealTable_1",
+            "DataSource": "get_data",
+            "DataTimeout": "3000",
+            "FrozenLine": "0",
+            "GridColor": "#ff144e80",
+            "GroupId": "",
+            "LineNumber": "3",
+            "Location": "0,30",
+            "MultiHeader": "false",
+            "PaginationNum": "20",
+            "QuerySource": "",
+            "RowHiegth": "58,58,58",
+            "RowNoDataHide": "false",
+            "ShowGrid": "true",
+            "Size": "1168,201",
+            "TableValue": [
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "ZM3T"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "kKiK"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "xAUc"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "5qd"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "V1.0"
+                    },
+                    "nodeId": "RealTable_2-1-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "V1.0"
+                    },
+                    "nodeId": "RealTable_2-1-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "V1.0"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "2z5"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "V1.0"
+                    },
+                    "nodeId": "RealTable_2-2-1",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "V1.0"
+                    },
+                    "nodeId": "RealTable_2-2-2",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                            "-": {
+                                "Color": "#ffffffff",
+                                "Content": "NA"
+                            }
+                        },
+                        "name": "V1.0"
+                    },
+                    "nodeId": "RealTable_2-2-3",
+                    "property": {
+                        "backgroundColor": "#00000000",
+                        "fontBold": "false",
+                        "fontColor": "#fff3f3f3",
+                        "fontSize": "21",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                }
+            ],
+            "dataType": "1",
+            "styleType": "color"
+        }
+    }
+]

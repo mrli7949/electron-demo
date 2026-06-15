@@ -1,0 +1,1346 @@
+[
+    {
+        "component": "Page",
+        "propValue": {
+            "Alpha": "1",
+            "BackgroundColor": "#ffffffff",
+            "BackgroundImage": "",
+            "DataTimeout": "10",
+            "Size": "1100,530",
+            "SizeType": "Default"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff66768b",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_2",
+            "FillColor": "#ff66768b",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "47,248",
+            "Radius": "0,0,0,0",
+            "Size": "360,95"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff94a3bc",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_3",
+            "FillColor": "#ff94a3bc",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "57,293",
+            "Radius": "0,0,0,0",
+            "Size": "340,40"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "EuPN>Dl10",
+            "CtrlName": "Label_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "16",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "729,262",
+            "Size": "126,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Image",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "CtrlName": "Image_1",
+            "DataTimeout": "10",
+            "HideDataSource": "",
+            "ImgSrc": "cab.png",
+            "IsLocked": "false",
+            "Location": "470,40",
+            "Size": "150,453",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#fffbb138",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "0",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "zh5f",
+            "CtrlName": "Button_1",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "HideDataSource": "",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "187,254",
+            "Radius": "15",
+            "Size": "80,30",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_4-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "155,300",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_5-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "315,300",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff66768b",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_2_1",
+            "FillColor": "#ff66768b",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "680,248",
+            "Radius": "0,0,0,0",
+            "Size": "360,95"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffabda75",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "0",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "YRgV",
+            "CtrlName": "Button_1_1",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "HideDataSource": "",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "820,254",
+            "Radius": "15",
+            "Size": "80,30",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff94a3bc",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_3_1",
+            "FillColor": "#ff94a3bc",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "691,293",
+            "Radius": "0,0,0,0",
+            "Size": "340,40"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "m4(℃)：",
+            "CtrlName": "Label_2_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "723,302",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "Is(%)：",
+            "CtrlName": "Label_2_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "882,302",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_8-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "788,303",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2_1_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_9-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "948,303",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff66768b",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_2_2",
+            "FillColor": "#ff66768b",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "47,367",
+            "Radius": "0,0,0,0",
+            "Size": "360,95"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ff46b9c0",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "0",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "ITrmO",
+            "CtrlName": "Button_1_2",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "HideDataSource": "",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "187,373",
+            "Radius": "15",
+            "Size": "80,30",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff94a3bc",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_3_2",
+            "FillColor": "#ff94a3bc",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "57,413",
+            "Radius": "0,0,0,0",
+            "Size": "340,40"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "IT5J3(%)：",
+            "CtrlName": "Label_2_4",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "157,420",
+            "Size": "90,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_11-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "249,420",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff66768b",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_2_3",
+            "FillColor": "#ff66768b",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "680,367",
+            "Radius": "0,0,0,0",
+            "Size": "360,95"
+        }
+    },
+    {
+        "component": "Button",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffabda75",
+            "BorderColor": "#ff000000",
+            "BorderWidth": "0",
+            "ButtonClass": "0",
+            "CabId": "1",
+            "CabType": "106",
+            "Content": "m7ny",
+            "CtrlName": "Button_1_3",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "GroupID": "0",
+            "HideDataSource": "",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "820,373",
+            "Radius": "15",
+            "Size": "80,30",
+            "Tooltip": "",
+            "Url": {
+            }
+        }
+    },
+    {
+        "component": "Rectangle",
+        "propValue": {
+            "Alpha": "1",
+            "AuthLevel": "0",
+            "BorderColor": "#ff94a3bc",
+            "BorderWidth": "1",
+            "CtrlName": "Rectangle_3_3",
+            "FillColor": "#ff94a3bc",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "691,413",
+            "Radius": "0,0,0,0",
+            "Size": "340,40"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "Zb(℃)：",
+            "CtrlName": "Label_2_5",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "723,415",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "Ka(%)：",
+            "CtrlName": "Label_2_1_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "882,415",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2_4",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_14-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "788,416",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "NA",
+            "CtrlName": "Label_2_2_1_3",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FieldValue": [
+                {
+                    "nodeId": "Label_15-1"
+                }
+            ],
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "948,416",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Line",
+        "propValue": {
+            "Alpha": "1",
+            "ArrowNum": "0",
+            "AuthLevel": "0",
+            "CtrlName": "Line_1",
+            "FillColor": "#fffbb138",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "394,273",
+            "Size": "110,1"
+        }
+    },
+    {
+        "component": "Line",
+        "propValue": {
+            "Alpha": "1",
+            "ArrowNum": "0",
+            "AuthLevel": "0",
+            "CtrlName": "Line_2",
+            "FillColor": "#ffabda75",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "596,118",
+            "Size": "50,1"
+        }
+    },
+    {
+        "component": "Line",
+        "propValue": {
+            "Alpha": "1",
+            "ArrowNum": "0",
+            "AuthLevel": "0",
+            "CtrlName": "Line_3",
+            "FillColor": "#ffabda75",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "646,118",
+            "Size": "1,155"
+        }
+    },
+    {
+        "component": "Line",
+        "propValue": {
+            "Alpha": "1",
+            "ArrowNum": "0",
+            "AuthLevel": "0",
+            "CtrlName": "Line_2_1",
+            "FillColor": "#ffabda75",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "647,272",
+            "Size": "50,1"
+        }
+    },
+    {
+        "component": "Line",
+        "propValue": {
+            "Alpha": "1",
+            "ArrowNum": "0",
+            "AuthLevel": "0",
+            "CtrlName": "Line_2_2",
+            "FillColor": "#ffabda75",
+            "HideDataSource": "",
+            "IsLocked": "false",
+            "Location": "609,395",
+            "Size": "100,1"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "Rn(%)：",
+            "CtrlName": "Label_2_1",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "249,299",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "Label",
+        "propValue": {
+            "AuthLevel": "0",
+            "Content": "79(℃)：",
+            "CtrlName": "Label_2",
+            "DataSourceJump": "false",
+            "DataTimeout": "10",
+            "FontColor": "#ffffffff",
+            "FontOrientation": "0",
+            "FontSize": "14",
+            "HideDataSource": "",
+            "HorizontalAlign": "0",
+            "IsBold": "false",
+            "IsLocked": "false",
+            "Location": "90,299",
+            "Size": "66,30",
+            "Tooltip": "",
+            "Url": {
+            },
+            "VerticalAlign": "2"
+        }
+    },
+    {
+        "component": "RealTable",
+        "propValue": {
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffffffff",
+            "BorderColor": "#ff0994a2",
+            "BorderWidth": "1",
+            "ColumnWidth": "100,85,85,85",
+            "ColumnsNumber": "4",
+            "CtrlName": "RealTable_1",
+            "DataSource": "get_data",
+            "DataTimeout": "10",
+            "FrozenLine": "0",
+            "GridColor": "#ff0994a2",
+            "GroupId": "",
+            "HideDataSource": "",
+            "LineNumber": "4",
+            "Location": "47,75",
+            "MultiHeader": "false",
+            "PaginationNum": "20",
+            "QuerySource": "",
+            "RowHiegth": "35,35,35,35",
+            "RowNoDataHide": "false",
+            "ShowGrid": "true",
+            "Size": "360,146",
+            "TableValue": [
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "YlA"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "ywB"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "TsC"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "zu(A)"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-1-1",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-1-2",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-1-3",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "9m(A)"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-2-1",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-2-2",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-2-3",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "sx(kW)"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-3-1",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-3-2",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "3",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_2-3-3",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                }
+            ],
+            "dataType": "1",
+            "styleType": "color"
+        }
+    },
+    {
+        "component": "RealTable",
+        "propValue": {
+            "AuthLevel": "0",
+            "BackgroundColor": "#ffffffff",
+            "BorderColor": "#ff0994a2",
+            "BorderWidth": "1",
+            "ColumnWidth": "120,115,115",
+            "ColumnsNumber": "3",
+            "CtrlName": "RealTable_1_1",
+            "DataSource": "get_data",
+            "DataTimeout": "10",
+            "FrozenLine": "0",
+            "GridColor": "#ff0994a2",
+            "GroupId": "",
+            "HideDataSource": "",
+            "LineNumber": "4",
+            "Location": "680,75",
+            "MultiHeader": "false",
+            "PaginationNum": "20",
+            "QuerySource": "",
+            "RowHiegth": "35,35,35,35",
+            "RowNoDataHide": "false",
+            "ShowGrid": "true",
+            "Size": "360,146",
+            "TableValue": [
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": ""
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "IC1"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "JC2"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "0",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "08(A)"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_1-1-1",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_1-1-2",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "1",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "dM(A)"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_1-2-1",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_1-2-2",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "2",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "0",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "ya(kW)"
+                    },
+                    "nodeId": "",
+                    "property": {
+                        "backgroundColor": "#ff54cad1",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "1",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_1-3-1",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                },
+                {
+                    "col": "2",
+                    "colspan": "1",
+                    "datasource": {
+                        "expression": {
+                        },
+                        "name": "NA"
+                    },
+                    "nodeId": "RealTable_1-3-2",
+                    "property": {
+                        "backgroundColor": "#ff46b9c0",
+                        "fontBold": "false",
+                        "fontColor": "#ffffffff",
+                        "fontSize": "12",
+                        "horizontalAlign": "center",
+                        "verticalAlign": "middle"
+                    },
+                    "row": "3",
+                    "rowspan": "1"
+                }
+            ],
+            "dataType": "1",
+            "styleType": "color"
+        }
+    }
+]
