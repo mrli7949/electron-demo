@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-CE1fenO4.js";e(`demo`);
