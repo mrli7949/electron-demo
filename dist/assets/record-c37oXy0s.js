@@ -1,0 +1,1 @@
+import{n as e}from"./createApp-BhNyLnYb.js";e(`record`);
