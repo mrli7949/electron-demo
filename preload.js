@@ -143,6 +143,10 @@ function sendWatchdogHeartbeat(payload = {}) {
   ipcRenderer.send('watchdog:heartbeat', payload)
 }
 
+function sendStressHeartbeat(payload = {}) {
+  ipcRenderer.send('stress-watchdog:heartbeat', payload)
+}
+
 contextBridge.exposeInMainWorld('electronDemo', {
   navigateTopLevel: async (entryUrl) => {
     setNavigationFlag()
@@ -162,5 +166,9 @@ contextBridge.exposeInMainWorld('electronDemo', {
   },
   watchdog: {
     heartbeat: sendWatchdogHeartbeat,
+  },
+  stressTest: {
+    agentUrl: process.env.ZD_STRESS_AGENT || 'http://127.0.0.1:18080',
+    heartbeat: sendStressHeartbeat,
   },
 })

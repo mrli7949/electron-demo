@@ -2,6 +2,7 @@ const { app, BrowserWindow, WebContentsView, ipcMain } = require('electron/main'
 const path = require('node:path')
 const { createWatchdog } = require('./watchdog')
 const { createMemoryMonitor } = require('./watchdog/memoryMonitor')
+const { createStressWatchdog } = require('./stress-watchdog')
 
 const RUNTIME_LIMITS = {
   // renderer 进程内存达到该值时，只记录 warning，不触发恢复。
@@ -50,6 +51,8 @@ const allowedEntryFiles = new Set([
   'demo.html',
 ])
 
+const WEB_BASE_URL = 'http://127.0.0.1:18088/'
+
 let currentWindow = null
 let currentRenderer = null
 let isReplacingRenderer = false
@@ -61,6 +64,11 @@ const watchdog = createWatchdog({
   requestRecovery: async (reason, context) => {
     await recoverCurrentRenderer(reason, context)
   },
+})
+
+const stressWatchdog = createStressWatchdog({
+  logDir: path.join(app.getPath('userData'), 'stress-watchdog-zzcd-logs'),
+  agentUrl: process.env.ZD_STRESS_AGENT || 'http://127.0.0.1:18080',
 })
 
 const memoryMonitor = createMemoryMonitor({
@@ -115,6 +123,21 @@ function parseEntryUrl(rawUrl) {
   }
 }
 
+function buildEntryHttpUrl(target) {
+  const entryUrl = new URL(target.fileName, WEB_BASE_URL)
+  if (target.hash) {
+    entryUrl.hash = target.hash
+  }
+
+  if (target.query) {
+    for (const [key, value] of Object.entries(target.query)) {
+      entryUrl.searchParams.set(key, value)
+    }
+  }
+
+  return entryUrl.toString()
+}
+
 function createRendererView() {
   const view = new WebContentsView({
     webPreferences: {
@@ -132,6 +155,7 @@ function destroyRenderer(renderer) {
   if (!renderer) return
 
   watchdog.detach(renderer.id)
+  stressWatchdog.detach(renderer.id)
 
   if (renderer.view && !renderer.view.webContents.isDestroyed()) {
     renderer.view.webContents.destroy()
@@ -169,12 +193,13 @@ async function loadRendererView(entryUrl) {
     id: renderer.id,
     entryUrl: renderer.entryUrl,
   })
+  stressWatchdog.attach(view.webContents, {
+    id: renderer.id,
+    entryUrl: renderer.entryUrl,
+  })
 
   try {
-    await view.webContents.loadFile(path.join(__dirname, 'dist', target.fileName), {
-      hash: target.hash,
-      query: target.query,
-    })
+    await view.webContents.loadURL(buildEntryHttpUrl(target))
   } catch (error) {
     destroyRenderer(renderer)
     throw error
@@ -205,6 +230,7 @@ async function replaceRendererView(entryUrl) {
   const previousRenderer = currentRenderer
   currentRenderer = nextRenderer
   watchdog.markActive(nextRenderer.id)
+  stressWatchdog.markActive(nextRenderer.id)
 
   if (previousRenderer) {
     currentWindow.contentView.removeChildView(previousRenderer.view)
@@ -253,6 +279,7 @@ const createWindow = async (entryUrl = 'index.html') => {
   currentWindow = win
   currentRenderer = await loadRendererView(entryUrl)
   watchdog.markActive(currentRenderer.id)
+  stressWatchdog.markActive(currentRenderer.id)
   resizeRendererView(win, currentRenderer)
   win.contentView.addChildView(currentRenderer.view)
   win.show()
@@ -314,6 +341,10 @@ ipcMain.on('watchdog:heartbeat', (event, payload) => {
   watchdog.receiveHeartbeat(event, payload)
 })
 
+ipcMain.on('stress-watchdog:heartbeat', (event, payload) => {
+  stressWatchdog.receiveHeartbeat(event, payload)
+})
+
 app.on('window-all-closed', () => {
   if (!isReplacingRenderer && process.platform !== 'darwin') {
     app.quit()
@@ -321,6 +352,11 @@ app.on('window-all-closed', () => {
 })
 
 app.on('before-quit', () => {
+  stressWatchdog.reportEvent({
+    level: 'info',
+    reason: 'electron-main-exit',
+  })
   memoryMonitor.stop()
   watchdog.close()
+  stressWatchdog.close()
 })

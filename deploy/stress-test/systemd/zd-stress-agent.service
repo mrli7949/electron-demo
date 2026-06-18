@@ -1,0 +1,14 @@
+[Unit]
+Description=ZD Stress Agent Server
+After=network.target
+
+[Service]
+Type=simple
+# 压力测试 agent 服务。Electron 里的 stress watchdog 会访问 127.0.0.1:18080。
+# 日志写到 /var/log/zd-stress-test，CPU worker 上限为 4。
+ExecStart=/opt/zd-stress-test/stress-agent-server/stress-agent-server-linux-arm64 --addr 127.0.0.1:18080 --log-root /var/log/zd-stress-test --max-cpu-workers 4
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

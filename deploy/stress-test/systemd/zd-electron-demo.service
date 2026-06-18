@@ -1,0 +1,18 @@
+[Unit]
+Description=ZD Electron Demo Stress Test
+# 压力测试专用 Electron 服务。启动前要求压力测试 agent 已运行。
+After=zd-stress-agent.service
+Requires=zd-stress-agent.service
+
+[Service]
+Type=simple
+# 这个服务不是正式运行服务；正式运行使用 electron-zzcd-watchdog.service。
+ExecStart=/usr/bin/electron-pure-kehua-zero
+Restart=on-failure
+RestartSec=3
+# 告诉 Electron 压力测试模块 agent 地址和日志目录。
+Environment=ZD_STRESS_AGENT=http://127.0.0.1:18080
+Environment=ZD_STRESS_LOG_ROOT=/var/log/zd-stress-test
+
+[Install]
+WantedBy=multi-user.target
