@@ -1,8 +1,13 @@
-const { app, BrowserWindow, WebContentsView, ipcMain } = require('electron/main')
-const path = require('node:path')
-const { createWatchdog } = require('./watchdog')
-const { createMemoryMonitor } = require('./watchdog/memoryMonitor')
-const { createStressWatchdog } = require('./stress-watchdog')
+const {
+  app,
+  BrowserWindow,
+  WebContentsView,
+  ipcMain,
+} = require("electron/main");
+const path = require("node:path");
+const { createWatchdog } = require("./watchdog");
+const { createMemoryMonitor } = require("./watchdog/memoryMonitor");
+const { createStressWatchdog } = require("./stress-watchdog");
 
 const RUNTIME_LIMITS = {
   // renderer 进程内存达到该值时，只记录 warning，不触发恢复。
@@ -28,48 +33,58 @@ const RUNTIME_LIMITS = {
 
   // V8 old-space 限制；只约束 JS 堆，不等同于 Chromium 总内存。
   jsOldSpaceMb: 256,
-}
+};
 
 // 禁用硬件加速，模拟测试
-app.disableHardwareAcceleration()
-app.commandLine.appendSwitch('disable-gpu')
+app.disableHardwareAcceleration();
+app.commandLine.appendSwitch("disable-gpu");
 // 限制渲染进程内存使用，模拟内存泄漏场景
-app.commandLine.appendSwitch('js-flags', `--max-old-space-size=${RUNTIME_LIMITS.jsOldSpaceMb}`)
+app.commandLine.appendSwitch(
+  "js-flags",
+  `--max-old-space-size=${RUNTIME_LIMITS.jsOldSpaceMb}`,
+);
 
-const gotSingleInstanceLock = app.requestSingleInstanceLock()
+const gotSingleInstanceLock = app.requestSingleInstanceLock();
 if (!gotSingleInstanceLock) {
-  console.error('[runtime] another electron-demo instance is already running, quit current process')
-  app.quit()
+  console.error(
+    "[runtime] another electron-demo instance is already running, quit current process",
+  );
+  app.quit();
 }
 
 const allowedEntryFiles = new Set([
-  'index.html',
-  'alarm.html',
-  'record.html',
-  'setting.html',
-  'system.html',
-  'demo.html',
-])
+  "index.html",
+  "alarm.html",
+  "record.html",
+  "setting.html",
+  "system.html",
+  "demo.html",
+]);
 
-const WEB_BASE_URL = 'http://127.0.0.1:18088/'
+const WEB_BASE_URL = "http://127.0.0.1:18088/";
+// 手动切换前端来源：
+// - "nginx": 加载本机 nginx 上的前端站点
+// - "local-dist": 加载 Electron 包内 dist 目录下的前端文件
+// const WEB_CONTENT_SOURCE = "nginx";
+const WEB_CONTENT_SOURCE = "local-dist";
 
-let currentWindow = null
-let currentRenderer = null
-let isReplacingRenderer = false
-let nextRendererId = 1
-const NAVIGATION_READY_EVENT = 'app:top-level-navigation-ready'
+let currentWindow = null;
+let currentRenderer = null;
+let isReplacingRenderer = false;
+let nextRendererId = 1;
+const NAVIGATION_READY_EVENT = "app:top-level-navigation-ready";
 
 const watchdog = createWatchdog({
-  logDir: path.join(app.getPath('userData'), 'watchdog-zzcd-logs'),
+  logDir: path.join(app.getPath("userData"), "watchdog-zzcd-logs"),
   requestRecovery: async (reason, context) => {
-    await recoverCurrentRenderer(reason, context)
+    await recoverCurrentRenderer(reason, context);
   },
-})
+});
 
 const stressWatchdog = createStressWatchdog({
-  logDir: path.join(app.getPath('userData'), 'stress-watchdog-zzcd-logs'),
-  agentUrl: process.env.ZD_STRESS_AGENT || 'http://127.0.0.1:18080',
-})
+  logDir: path.join(app.getPath("userData"), "stress-watchdog-zzcd-logs"),
+  agentUrl: process.env.ZD_STRESS_AGENT || "http://127.0.0.1:18080",
+});
 
 const memoryMonitor = createMemoryMonitor({
   app,
@@ -77,286 +92,332 @@ const memoryMonitor = createMemoryMonitor({
   getCurrentRenderer: () => currentRenderer,
   isRecoveryBusy: () => isReplacingRenderer,
   reportEvent: (event) => {
-    watchdog.reportEvent(event)
+    watchdog.reportEvent(event);
   },
   requestRecovery: async (reason, context) => {
-    await recoverCurrentRenderer(reason, context)
+    await recoverCurrentRenderer(reason, context);
   },
   requestHardExit: (reason, context) => {
     watchdog.reportEvent({
-      source: 'electron-main',
-      level: 'fatal',
+      source: "electron-main",
+      level: "fatal",
       reason,
       rendererId: context.rendererId,
       entryUrl: context.entryUrl,
       details: context.details,
-    })
-    console.error('[memory] hard limit reached, exit current process:', reason, context)
-    app.exit(137)
+    });
+    console.error(
+      "[memory] hard limit reached, exit current process:",
+      reason,
+      context,
+    );
+    app.exit(137);
   },
-})
+});
 
 function parseEntryUrl(rawUrl) {
-  if (typeof rawUrl !== 'string') {
-    throw new Error('Entry URL must be a string')
+  if (typeof rawUrl !== "string") {
+    throw new Error("Entry URL must be a string");
   }
 
-  const targetUrl = rawUrl.trim()
+  const targetUrl = rawUrl.trim();
   if (!targetUrl) {
-    throw new Error('Entry URL cannot be empty')
+    throw new Error("Entry URL cannot be empty");
   }
 
   if (/^(?:[a-z]+:)?\/\//i.test(targetUrl)) {
-    throw new Error('External URLs are not allowed')
+    throw new Error("External URLs are not allowed");
   }
 
-  const parsedUrl = new URL(targetUrl, 'file:///')
-  const fileName = path.posix.basename(parsedUrl.pathname)
-  if (parsedUrl.pathname !== `/${fileName}` || !allowedEntryFiles.has(fileName)) {
-    throw new Error(`Entry URL is not allowed: ${targetUrl}`)
+  const parsedUrl = new URL(targetUrl, "file:///");
+  const fileName = path.posix.basename(parsedUrl.pathname);
+  if (
+    parsedUrl.pathname !== `/${fileName}` ||
+    !allowedEntryFiles.has(fileName)
+  ) {
+    throw new Error(`Entry URL is not allowed: ${targetUrl}`);
   }
 
   return {
     fileName,
     hash: parsedUrl.hash ? parsedUrl.hash.slice(1) : undefined,
-    query: parsedUrl.search ? Object.fromEntries(parsedUrl.searchParams.entries()) : undefined,
-  }
+    query: parsedUrl.search
+      ? Object.fromEntries(parsedUrl.searchParams.entries())
+      : undefined,
+  };
 }
 
 function buildEntryHttpUrl(target) {
-  const entryUrl = new URL(target.fileName, WEB_BASE_URL)
+  const entryUrl = new URL(target.fileName, WEB_BASE_URL);
   if (target.hash) {
-    entryUrl.hash = target.hash
+    entryUrl.hash = target.hash;
   }
 
   if (target.query) {
     for (const [key, value] of Object.entries(target.query)) {
-      entryUrl.searchParams.set(key, value)
+      entryUrl.searchParams.set(key, value);
     }
   }
 
-  return entryUrl.toString()
+  return entryUrl.toString();
+}
+
+function buildEntryFilePath(target) {
+  return path.join(__dirname, "dist", target.fileName);
+}
+
+function buildEntryFileOptions(target) {
+  return {
+    query: target.query,
+    hash: target.hash,
+  };
+}
+
+async function loadEntry(view, target) {
+  if (WEB_CONTENT_SOURCE === "local-dist") {
+    await view.webContents.loadFile(
+      buildEntryFilePath(target),
+      buildEntryFileOptions(target),
+    );
+    return;
+  }
+
+  if (WEB_CONTENT_SOURCE === "nginx") {
+    await view.webContents.loadURL(buildEntryHttpUrl(target));
+    return;
+  }
+
+  throw new Error(`Unknown WEB_CONTENT_SOURCE: ${WEB_CONTENT_SOURCE}`);
 }
 
 function createRendererView() {
   const view = new WebContentsView({
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js'),
+      preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: false,
     },
-  })
-  view.setBackgroundColor('#06111c')
-  return view
+  });
+  view.setBackgroundColor("#06111c");
+  return view;
 }
 
 function destroyRenderer(renderer) {
-  if (!renderer) return
+  if (!renderer) return;
 
-  watchdog.detach(renderer.id)
-  stressWatchdog.detach(renderer.id)
+  watchdog.detach(renderer.id);
+  stressWatchdog.detach(renderer.id);
 
   if (renderer.view && !renderer.view.webContents.isDestroyed()) {
-    renderer.view.webContents.destroy()
+    renderer.view.webContents.destroy();
   }
 }
 
 function resizeRendererView(win, renderer) {
-  if (!win || win.isDestroyed() || !renderer?.view) return
-  const [width, height] = win.getContentSize()
-  renderer.view.setBounds({ x: 0, y: 0, width, height })
+  if (!win || win.isDestroyed() || !renderer?.view) return;
+  const [width, height] = win.getContentSize();
+  renderer.view.setBounds({ x: 0, y: 0, width, height });
 }
 
 function notifyRendererViewReady(renderer) {
-  if (!renderer?.view || renderer.view.webContents.isDestroyed()) return
+  if (!renderer?.view || renderer.view.webContents.isDestroyed()) return;
 
   setTimeout(() => {
     if (!renderer.view.webContents.isDestroyed()) {
-      renderer.view.webContents.send(NAVIGATION_READY_EVENT)
+      renderer.view.webContents.send(NAVIGATION_READY_EVENT);
     }
-  }, 0)
+  }, 0);
 }
 
 async function loadRendererView(entryUrl) {
-  const target = parseEntryUrl(entryUrl)
-  const view = createRendererView()
+  const target = parseEntryUrl(entryUrl);
+  const view = createRendererView();
   const renderer = {
     id: nextRendererId++,
     entryUrl,
     view,
     webContents: view.webContents,
     createdAt: Date.now(),
-  }
+  };
 
   watchdog.attach(view.webContents, {
     id: renderer.id,
     entryUrl: renderer.entryUrl,
-  })
+  });
   stressWatchdog.attach(view.webContents, {
     id: renderer.id,
     entryUrl: renderer.entryUrl,
-  })
+  });
 
   try {
-    await view.webContents.loadURL(buildEntryHttpUrl(target))
+    await loadEntry(view, target);
   } catch (error) {
-    destroyRenderer(renderer)
-    throw error
+    destroyRenderer(renderer);
+    throw error;
   }
 
-  return renderer
+  return renderer;
 }
 
 async function replaceRendererView(entryUrl) {
   if (!currentWindow || currentWindow.isDestroyed()) {
-    throw new Error('Main window is not available')
+    throw new Error("Main window is not available");
   }
 
-  const nextRenderer = await loadRendererView(entryUrl)
+  const nextRenderer = await loadRendererView(entryUrl);
   if (!currentWindow || currentWindow.isDestroyed()) {
-    destroyRenderer(nextRenderer)
-    throw new Error('Main window was closed while loading renderer')
+    destroyRenderer(nextRenderer);
+    throw new Error("Main window was closed while loading renderer");
   }
 
   try {
-    resizeRendererView(currentWindow, nextRenderer)
-    currentWindow.contentView.addChildView(nextRenderer.view)
+    resizeRendererView(currentWindow, nextRenderer);
+    currentWindow.contentView.addChildView(nextRenderer.view);
   } catch (error) {
-    destroyRenderer(nextRenderer)
-    throw error
+    destroyRenderer(nextRenderer);
+    throw error;
   }
 
-  const previousRenderer = currentRenderer
-  currentRenderer = nextRenderer
-  watchdog.markActive(nextRenderer.id)
-  stressWatchdog.markActive(nextRenderer.id)
+  const previousRenderer = currentRenderer;
+  currentRenderer = nextRenderer;
+  watchdog.markActive(nextRenderer.id);
+  stressWatchdog.markActive(nextRenderer.id);
 
   if (previousRenderer) {
-    currentWindow.contentView.removeChildView(previousRenderer.view)
-    destroyRenderer(previousRenderer)
+    currentWindow.contentView.removeChildView(previousRenderer.view);
+    destroyRenderer(previousRenderer);
   }
 
-  notifyRendererViewReady(nextRenderer)
+  notifyRendererViewReady(nextRenderer);
 }
 
 async function recoverCurrentRenderer(reason, context) {
-  if (isReplacingRenderer) return
-  if (!currentRenderer || context.rendererId !== currentRenderer.id) return
+  if (isReplacingRenderer) return;
+  if (!currentRenderer || context.rendererId !== currentRenderer.id) return;
 
-  console.error('[watchdog] recovery requested:', reason, context)
+  console.error("[watchdog] recovery requested:", reason, context);
 
-  isReplacingRenderer = true
+  isReplacingRenderer = true;
   try {
-    await replaceRendererView(currentRenderer.entryUrl)
+    await replaceRendererView(currentRenderer.entryUrl);
   } finally {
-    isReplacingRenderer = false
+    isReplacingRenderer = false;
   }
 }
 
-const createWindow = async (entryUrl = 'index.html') => {
+const createWindow = async (entryUrl = "index.html") => {
+  // const win = new BrowserWindow({
+  //   width: 1280,
+  //   height: 800,
+  //   useContentSize: true,
+  //   resizable: false,
+  //   show: false,
+  //   backgroundColor: '#06111c',
+  // })
   const win = new BrowserWindow({
-    width: 1280,
-    height: 800,
-    useContentSize: true,
-    resizable: false,
+    width: 1024,
+    height: 600,
+    fullscreen: true,
+    frame: false,
+    autoHideMenuBar: true,
     show: false,
-    backgroundColor: '#06111c',
-  })
+    backgroundColor: "#06111c",
+  });
 
-  win.on('resize', () => {
-    resizeRendererView(win, currentRenderer)
-  })
+  win.on("resize", () => {
+    resizeRendererView(win, currentRenderer);
+  });
 
-  win.on('closed', () => {
+  win.on("closed", () => {
     if (currentWindow === win) {
-      destroyRenderer(currentRenderer)
-      currentWindow = null
-      currentRenderer = null
+      destroyRenderer(currentRenderer);
+      currentWindow = null;
+      currentRenderer = null;
     }
-  })
+  });
 
-  currentWindow = win
-  currentRenderer = await loadRendererView(entryUrl)
-  watchdog.markActive(currentRenderer.id)
-  stressWatchdog.markActive(currentRenderer.id)
-  resizeRendererView(win, currentRenderer)
-  win.contentView.addChildView(currentRenderer.view)
-  win.show()
-  notifyRendererViewReady(currentRenderer)
+  currentWindow = win;
+  currentRenderer = await loadRendererView(entryUrl);
+  watchdog.markActive(currentRenderer.id);
+  stressWatchdog.markActive(currentRenderer.id);
+  resizeRendererView(win, currentRenderer);
+  win.contentView.addChildView(currentRenderer.view);
+  win.show();
+  notifyRendererViewReady(currentRenderer);
 
-  return win
-}
+  return win;
+};
 
 app.whenReady().then(() => {
   createWindow().catch((error) => {
-    console.error('Failed to create main window:', error)
-    app.quit()
-  })
+    console.error("Failed to create main window:", error);
+    app.quit();
+  });
 
-  memoryMonitor.start()
+  memoryMonitor.start();
 
-  app.on('activate', () => {
+  app.on("activate", () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow().catch((error) => {
-        console.error('Failed to create main window:', error)
-        app.quit()
-      })
+        console.error("Failed to create main window:", error);
+        app.quit();
+      });
     }
-  })
-})
+  });
+});
 
-app.on('second-instance', () => {
-  console.warn('[runtime] blocked second electron-demo instance')
-  if (!currentWindow || currentWindow.isDestroyed()) return
+app.on("second-instance", () => {
+  console.warn("[runtime] blocked second electron-demo instance");
+  if (!currentWindow || currentWindow.isDestroyed()) return;
 
   if (currentWindow.isMinimized()) {
-    currentWindow.restore()
+    currentWindow.restore();
   }
-  currentWindow.show()
-  currentWindow.focus()
-})
+  currentWindow.show();
+  currentWindow.focus();
+});
 
-ipcMain.handle('app:navigate-top-level', async (event, entryUrl) => {
+ipcMain.handle("app:navigate-top-level", async (event, entryUrl) => {
   if (isReplacingRenderer) {
-    return { ok: true, reason: 'A renderer replacement is already running' }
+    return { ok: true, reason: "A renderer replacement is already running" };
   }
 
   if (event.sender !== currentRenderer?.webContents) {
-    return { ok: false, reason: 'Source renderer is not available' }
+    return { ok: false, reason: "Source renderer is not available" };
   }
 
-  isReplacingRenderer = true
-  watchdog.pause('top-level-navigation')
+  isReplacingRenderer = true;
+  watchdog.pause("top-level-navigation");
   try {
-    await replaceRendererView(entryUrl)
-    return { ok: true }
+    await replaceRendererView(entryUrl);
+    return { ok: true };
   } finally {
-    watchdog.resume('top-level-navigation')
-    isReplacingRenderer = false
+    watchdog.resume("top-level-navigation");
+    isReplacingRenderer = false;
   }
-})
+});
 
-ipcMain.on('watchdog:heartbeat', (event, payload) => {
-  watchdog.receiveHeartbeat(event, payload)
-})
+ipcMain.on("watchdog:heartbeat", (event, payload) => {
+  watchdog.receiveHeartbeat(event, payload);
+});
 
-ipcMain.on('stress-watchdog:heartbeat', (event, payload) => {
-  stressWatchdog.receiveHeartbeat(event, payload)
-})
+ipcMain.on("stress-watchdog:heartbeat", (event, payload) => {
+  stressWatchdog.receiveHeartbeat(event, payload);
+});
 
-app.on('window-all-closed', () => {
-  if (!isReplacingRenderer && process.platform !== 'darwin') {
-    app.quit()
+app.on("window-all-closed", () => {
+  if (!isReplacingRenderer && process.platform !== "darwin") {
+    app.quit();
   }
-})
+});
 
-app.on('before-quit', () => {
+app.on("before-quit", () => {
   stressWatchdog.reportEvent({
-    level: 'info',
-    reason: 'electron-main-exit',
-  })
-  memoryMonitor.stop()
-  watchdog.close()
-  stressWatchdog.close()
-})
+    level: "info",
+    reason: "electron-main-exit",
+  });
+  memoryMonitor.stop();
+  watchdog.close();
+  stressWatchdog.close();
+});

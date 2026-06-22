@@ -42,7 +42,7 @@ sudo systemctl start zd-electron-demo.service
 - 压力测试专用 Electron 启动服务。
 - 依赖 `zd-stress-agent.service`，启动它时会先启动 agent。
 - 设置 `ZD_STRESS_AGENT` 和 `ZD_STRESS_LOG_ROOT`，让 Electron 压力测试模块能找到 agent 和日志目录。
-- 它不是正式运行服务；正式运行当前使用 `electron-zzcd-watchdog.service`。
+- 它不是正式运行服务；正式运行当前使用 `../electron-zzcd-watchdog/electron-zzcd-watchdog.service`。
 
 ## 停止
 

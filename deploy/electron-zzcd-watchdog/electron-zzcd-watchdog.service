@@ -1,5 +1,5 @@
 [Unit]
-Description=Electron ZZCD Watchdog
+Description=正式 Electron 看门狗服务
 After=graphical.target network-online.target
 Wants=network-online.target
 
@@ -9,6 +9,9 @@ User=firefly
 Group=firefly
 WorkingDirectory=/opt/electron-demo
 ExecStart=/opt/electron-demo/electron-pure-kehua-zero
+
+# 进程退出后由 systemd 自动拉起。正常关闭窗口也会触发退出，
+# 因此当前配置会在 3 秒后重新启动 Electron。
 Restart=always
 RestartSec=3
 
